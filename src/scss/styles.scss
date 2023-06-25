@@ -1,0 +1,450 @@
+//** Import all SASS files to be used f generating final css */
+    @use 'reset';
+    @use 'fonts';
+    @use 'animations';
+    @import 'variables';
+    @import 'mixins';
+
+
+
+
+//**====== GLOBAL STYLES ======*/
+
+html {
+    scroll-behavior: smooth;
+    //** Main background color - Changes background color for all pages */
+        background-color: $night-rider;
+}
+
+//** Make main content to start after fixed nav bar rather than behind it */
+.main-landing-page-title, .main-page-title {
+    align-self: center;
+    text-align: center;
+        margin-bottom: 7rem;
+}
+.main-landing-page-title {
+    margin-top: 7rem;
+}
+.main-page-title {
+    margin-top: 12rem;
+}
+
+//** Uniform padding and margin around App */
+.standart-padding {
+    padding: 0 $standart-padding; //* Padding for left and right, zero for top and bottom
+}
+.standart-margin {
+    margin-bottom: 5rem; //* Used for different sections around the App */
+}
+
+
+.scroll-to-top-button {
+    position: fixed;
+        transform: translateX(-110%); //* Slides the button off-screen - better than 'left' attribute */
+        bottom: 40px;
+    //!! z-index: 1; 
+    height: 3.1rem;
+        width: 3rem; 
+        border-radius: 0 25px 25px 0;
+    font-size: 2.5rem;
+        text-align: center;
+    background-color: $blood-orange;
+    cursor: pointer;
+
+    .scroll-to-top-icon {
+        display: inline-block;
+            vertical-align: bottom;
+            line-height: 50px;
+
+        color:$night-rider;
+    }
+}
+
+table {
+    border-collapse: collapse;
+        overflow: scroll;
+        table-layout: fixed;
+    width: 50%;
+        margin: 25px 0;
+    text-align: center;
+
+    box-shadow: 0 0 20px rgba(27, 27, 27, 0.15);
+
+    tr td {
+        word-wrap: break-word; //* If there is no room, break text into next line */
+    }
+
+    thead tr {
+        background-color: $blood-orange; 
+        color: $night-rider;
+    }
+
+    tbody tr {
+        border-bottom: 1px solid #dddddd; //* Line bellow each row */
+    }
+
+    th, td {
+        padding: 15px;
+    }
+}
+
+//* For creating <li> bullet lists elements with a custom bullet symbol */
+ul {
+    .comet-li {
+        margin-bottom: 1.5rem; //** Spacing between each <li> */
+    }
+
+    .comet-li::before {
+        display: inline-block;
+            
+        font-weight: bold;
+        font-size: $px32; //** Size of the bullet */
+        
+        content: '\2604'; //** Code for the symbol - comet */
+        color: $blood-orange; //* Color of the bullet */
+        
+        width: 1.5em; //* Provides propper empty space to the right of the buttlet */
+    }
+}
+
+//*====== NAV SECTION ======*/
+
+nav {
+    position: fixed;
+        z-index: 2;
+        width: 100%;
+        
+    padding: 1.5rem $standart-padding 1.5rem $standart-padding;
+
+    display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    
+    background-color: rgba(27, 27, 27, 0.8); //** Night rider but transparent */
+        //!! box-shadow: 0 0 20px rgba(253, 156, 1, 0.5);
+
+    .nav-links {
+        display: flex;
+            gap: 4rem;
+        list-style: none;
+
+        .nav-link {
+            color: $blood-orange;
+            text-decoration: none;
+
+            transition: all .4s ease-in; //** Makes hover effects ease-in rather than pop-in */
+
+            &:hover, &.active, //** NavLink provides thic class itself */
+            &:focus, &:active  {
+                color: #fd0101; 
+            }
+        }   
+    }
+}
+
+//**====== FOOTER SECTION ======*/
+
+footer {
+    display: flex;
+        flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    min-height: 30vh; //** Footer height */
+        margin-top: 3rem;
+    text-align: center;
+
+    padding: 0 $standart-padding 0 $standart-padding;
+
+    .footer-line-break {
+        width: 85%;
+            height: 0.15rem;
+                border-radius: 25%;
+        background-color: $blood-orange;
+    }
+
+    p {
+        padding-top: 3rem;
+    }
+}
+
+//**====== HERO SECTION ======*/
+
+.hero-section {
+    position: relative;
+
+    .hero-video {
+        //* Hero section - Make the video cover the view-port noth in width and height */
+            object-fit: cover;
+                width:100vw;
+                height:100vh; 
+    }
+    
+    .hero-text {
+        //** Overley the text over the hero section */
+        position: absolute; //** Determine it's position */
+            bottom: 8%;
+            left: 8%;
+        color: $ghost-white;
+            background-color: rgba(0, 0, 0,0.35); //!! Currenlty it is black  */
+        text-align: center;
+
+        span {
+            color: $blood-orange;
+        }
+    }
+}
+
+//**====== LANDING PAGE SECTION ======*/
+
+.landing-page {
+    @include flex-collumn-center;
+
+    padding: 0 $standart-padding;
+
+    .landing-page-title {
+        text-align: center;
+    }
+
+    .product-filters {
+
+        display: flex;
+            flex-direction: row; //** Puts them side-by-side */
+
+        gap: 3rem; //* Gap between them - vertically on mobike, horizontally on desktop */
+
+        .product-filter {
+            @include flex-collumn-center;
+
+            select {
+                margin-top: 0.8rem;
+                    padding: 1rem; //!!
+                border: none;
+                    outline: none;
+                text-align: center;
+                cursor: pointer;
+                //!! box-shadow: 0 0 5px 5px rgba(253, 156, 1, 0.15); */ //** Adds a shadow around the <select> */
+                background-color: $night-rider;
+                    color: $blood-orange;
+            }
+        }
+        
+    }
+
+    .product-display {
+        @include flex-collumn-center;
+
+        min-height: 42vh;
+
+        .product-display-empty {
+            text-align: center;
+        }
+
+        .product-card {
+
+            margin-top: 7rem;
+
+            .product-link {
+                text-decoration: none;
+
+                &:focus, &:hover, &:visited, &:link, &:active {
+                    text-decoration: none;
+                    color: $blood-orange;
+                }
+            }
+
+        //** The effect when the user hovers over the product card - rotate and make the <img> smaller */
+            &:hover {
+                .product-card-img {
+                    transform: rotate(45deg) scale(0.9); //!! Cool effect */
+                }
+            }
+
+            .product-card-img {
+                @include flex-collumn-center;
+
+                //** Makes the hover effect ease in rather than violently pop-in */
+                    transition: all .4s ease; //!! Important */
+            } 
+
+            .product-card-info {
+                margin-top: 1rem;
+                    text-align: center;
+
+                .product-card-info-price {
+                    margin-top: 1.5rem;
+                        color: $ghost-white;
+                }
+            }
+        }
+    }
+}
+
+//**====== Product page ======*/
+
+.product-page {
+    @include flex-collumn-center;
+    
+    .product-page-price {
+        margin-top: 1rem;
+            color: $ghost-white;
+    }
+
+    .product-video-container, .product-video-frame {
+        width: 100%;
+        border: none;
+
+        .product-video-frame {
+            height: 600px;
+        }
+    }
+}
+
+//**====== Contacts page ======*/
+
+.contact-page {
+
+    display: flex;
+        flex-direction: column;
+
+    .google-maps-frame {
+        width: 100%;
+            height: 26rem;
+        border: none;
+    }
+
+    address {
+        display: flex;
+            flex-direction: column;
+        line-height: 3rem;
+
+        b {
+            margin-bottom: 1.5rem;
+        }
+
+        a {
+            color: $blood-orange;
+        }
+    }
+
+    ul {
+        display: flex;
+            flex-direction: column;      
+            line-height: 30px;  
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .contact-table-container {
+        @include flex-collumn-center;
+    }
+}
+
+//**====== SAFETY PAGE ======*/
+
+.safety-page {
+    @include flex-collumn-center;
+
+    .safety-video-frame {
+        width: 100%;
+        height: 550px;
+    }
+
+    ul {
+        display: flex;
+            flex-direction: column;      
+            line-height: 30px;  
+    }
+
+}
+
+//**====== POLICY PAGE ======*/
+
+    .policy-page {
+        @include flex-collumn-center;
+
+        //** Makes the <iframe> take proper sizing thanks to type='application/pdf' */
+        .document-frame {
+            width: 75%;
+            height: 500px;
+        }
+
+        .document-container {
+
+            @include flex-collumn-center;
+
+            text-align: center;
+
+            padding: 0 $standart-padding 0 $standart-padding;
+
+            img {
+                width: 8rem;
+                height: auto;
+            }
+        }
+    }
+
+//**====== Media Queries =======*/
+
+    //** MOBILE SCREENS */
+    @media only screen and (max-width: 866px)  {
+
+        h1 {
+            font-size: $px45;
+        }
+
+        .standart-padding {
+            padding: 0 $standart-padding-mobile;
+        }
+
+        table {
+            width:100%;
+        }
+
+        nav {
+            justify-content: center;
+                padding: 1.5rem $standart-padding 1.5rem $standart-padding;
+        
+            .nav-links {
+                    gap: 1.5rem;
+                li a {
+                    font-size: $px14;
+                }
+            }
+        }
+
+        .hero-section {
+            .hero-text {
+                right: 10%;
+            }
+        }
+
+        .landing-page {
+            .product-filters {
+                flex-direction: column;
+            }
+        }
+
+        footer {
+            padding: 0 1.2rem 0 1.2rem;
+        }
+    }
+
+    //* DESKTOP SCREENS */
+    @media only screen and (min-width: 861px) {
+        .policy-frame {
+            width: 826px;
+                height: 500px;
+            //!! Actually makes the frame stick into the website */
+            zoom: 1.00;
+                transform: scale(1.00);
+            border: 0;
+                box-shadow: 0px 6px 15px 0px rgba(27, 27, 27,0.32);
+        }
+    }
+
+    //** Remove animations for those users who have selected to ignore them on their devices */
+    @media screen and (prefers-reduced-motion: reduce) {
+        .animate { animation: none !important; }
+    }

@@ -1,0 +1,38 @@
+//**====== ANIMATIONS ======*/
+
+//** For when the product card's and <p> error messages appears on screen on the LandingPage */
+    .animate.pop {
+        animation-duration: 0.8s;
+        animation-name: animate-pop;
+        animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+    }
+
+    @keyframes animate-pop {
+        0% {
+            opacity: 0;
+            transform: scale(0.5, 0.5);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scale(1, 1);
+        }
+    }
+
+//** For hidding and showing the scroll to top button */
+    .slide-in {
+        animation: slide-in 0.5s forwards;
+    }
+
+    .slide-out {
+        animation: slide-out 0.5s forwards;
+    }
+        
+    @keyframes slide-in {
+        100% { transform: translateX(0%); }
+    }
+        
+    @keyframes slide-out {
+        0% { transform: translateX(0%); }
+        100% { transform: translateX(-110%); }
+    }

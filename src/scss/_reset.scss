@@ -1,0 +1,113 @@
+/**
+  **  1. Avoid z-index at all costs.
+  **  2. Bad animation is worse than no animation.
+  **  3. Use BEM naming for classes = .button--primary.
+  **  4. vw - “1vw” = 1% of the viewport width. “1vw” = 12px if wieport is 1200px wide.
+*/
+
+
+//**-------- DEV MORE - Use for testing layout, etc. */
+/*
+* {
+    outline: solid 1px darkred;
+  }
+*/
+
+//**-------- Enable the border-box */
+  html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+//**-------- Allow percentage-based heights in the application */
+  html, body {
+    // height: 100%;
+    height: 100vh;
+  }
+
+  //** For react */
+    #root, .App {
+      // height: 100vh;
+      height: 100%;
+    }
+
+//**-------- Create a root stacking context for SPAs like React/Next.js */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+//**-------- Enable contextual smooth-scrolling */
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
+
+//**-------- Remove default margin and padding */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+//**-------- Fonts: Add accessible line-height and Improve text rendering */
+  body {
+    line-height: calc(1em + 0.5rem);
+  }
+
+//**--------  Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+//**-------- Add the correct font weight and size */
+  b,
+  strong {
+    font-weight: bolder;
+  }
+
+  small {
+    font-size: 80%;
+  }
+
+//**-------- Improve media defaults */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+
+//**-------- Improve html element defaults */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, main, section {
+    display: block;
+  }
+
+//**-------- Remove built-in form typography styles */
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+//**-------- Remove the default stylling for listed items */
+  ol, ul {
+    list-style: none;
+  }
+
+//**-------- Makes tables more predictable */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+/*
+//**------ Add class=safe-animation to allow the animation otherwise it will be reduced
+@media (prefers-reduced-motion: reduce) {  
+  *:not(.safe-animation),  
+  *:not(.safe-animation)::before,  
+  *:not(.safe-animation)::after {    
+    animation-duration: 0.01s !important;    
+    animation-iteration-count: 1 !important;    
+    transition-duration: 0s !important;    
+    scroll-behavior: auto !important;  
+  }
+}
+*/

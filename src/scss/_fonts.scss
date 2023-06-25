@@ -1,0 +1,71 @@
+
+//** IMPORT GOOGLE FONTS */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+//** Import variables */
+    @import 'variables';
+
+//**====== FONT STYLES =======*/
+
+//** Global styles */
+
+    body {
+        font-family: 'Montserrat', sans-serif;
+        color: $ghost-white;
+    }
+
+    h1 {
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: $px48;
+        line-height: 4rem;
+
+        span {
+            color: $blood-orange;
+        }
+    }
+
+    h2 {
+        font-size: $px31;
+        text-transform: uppercase;
+        font-weight: 900;
+        line-height: 3rem;
+    }
+
+    h3 {
+        font-size: $px28;
+        line-height: 2.5rem;
+    }
+
+    h4 {
+        font-size: $px24;
+    }
+
+    p, a, table, li {
+        font-size: $px20;
+    }
+
+    main {
+        p {
+            line-height: 2.5rem;
+            word-spacing: 2px;
+        }
+    }
+
+//**====== SPECIAL CASES ======*/
+
+.nav-links li a { //!!! Change font size on mobil
+    font-weight: 700;
+}
+
+.hero-text {
+    font-weight: 900;
+}
+
+.product-filter {
+    
+    label, select {
+        font-weight: 700;
+        font-size: $px20; 
+    }
+}
