@@ -223,6 +223,8 @@ const LandingPage = () => {
                                                         {
                                                             product.media[0].img
                                                         }
+                                                    height={'auto'}
+                                                    width={'400px'}
                                                 />
                                             </figure>
                                         </section>
@@ -230,24 +232,16 @@ const LandingPage = () => {
                                         <section
                                             className='product-card-info'
                                         >
-                                            <h3>
-                                                {
-                                                    product.id
-                                                }
-                                            </h3>
-                                            <h3>
-                                                {
-                                                    product.name
-                                                }
-                                            </h3>
-
-                                            <h4
+                                            <h2>
+                                                {product.id}<br />{product.name}
+                                            </h2>
+                                            <h3
                                                 className='product-card-info-price'
                                             > 
                                                 {
                                                     product.price[0].value + ' ' + product.price[0].symbol
                                                 }
-                                            </h4>
+                                            </h3>
                                         </section>
                                     </Link>
                                 </section>

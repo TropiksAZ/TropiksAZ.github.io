@@ -44,13 +44,13 @@ const ProductPage = () => {
                             {el.id}<br/><span>{el.name}</span>
                         </h1>
 
-                        <h3
+                        <h2
                             className='product-page-price'
                         >
                             {
                                 el.price[0].value + ' ' + el.price[0].symbol
                             }
-                        </h3>
+                        </h2>
                     </section>
 
                     <section
@@ -66,6 +66,8 @@ const ProductPage = () => {
                                     {
                                         el.media[0].img
                                     }
+                                height={'auto'}
+                                width={'400px'}
                             />
                         </figure>
                     </section>
