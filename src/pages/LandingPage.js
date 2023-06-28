@@ -213,7 +213,14 @@ const LandingPage = () => {
                                     >
                                         <section
                                             className='product-card-img'>
-                                            <figure>
+                                            <picture>
+                                                <source 
+                                                    type='image/webp' 
+                                                    srcSet=
+                                                        {
+                                                            product.media[0].webp
+                                                        } 
+                                                />
                                                 <img 
                                                     alt=
                                                         {
@@ -226,7 +233,7 @@ const LandingPage = () => {
                                                     height={'auto'}
                                                     width={'auto'}
                                                 />
-                                            </figure>
+                                            </picture>
                                         </section>
 
                                         <section

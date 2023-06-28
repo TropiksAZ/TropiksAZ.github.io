@@ -12,7 +12,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB311.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB311.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB311.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/_5mBjnHfI3c"
                 }
             ],
@@ -59,7 +60,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB400.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB400.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB400.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/IVNbSFJ8RWM"
                 }
             ],
@@ -106,7 +108,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB407.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB407.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB407.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/ivSnog6FrAA"
                 }
             ],
@@ -153,7 +156,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB405.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB405.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB405.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/5vSmlCymoKE"
                 }
             ],
@@ -200,7 +204,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB308.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB308.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB308.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/Jnss7TadtFU"
                 }
             ],
@@ -247,7 +252,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB206.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB206.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB206.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/YxvEXhwoAQU"
                 }
             ],
@@ -294,7 +300,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB308.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB308.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB308.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/tjFhrzEA9qI"
                 }
             ],
@@ -341,7 +348,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB407.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB407.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB407.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/ukBu7vXfL2k"
                 }
             ],
@@ -388,7 +396,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB88.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB88.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB88.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/uZH7APmla_c"
                 }
             ],
@@ -435,7 +444,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB191.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB191.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB191.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/ArWVBUKMmFs"
                 }
             ],
@@ -482,7 +492,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB88.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB88.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB88.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/8pM9OezM69M"
                 }
             ],
@@ -529,7 +540,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB94.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB94.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB94.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/XA4Ca4UOyAM"
                 }
             ],
@@ -576,7 +588,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB62.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB62.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB62.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/PQU8_Mx50LQ"
                 }
             ],
@@ -623,7 +636,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB80.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB80.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB80.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/j1UaymPEaMM"
                 }
             ],
@@ -670,7 +684,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB300.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB300.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB300.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/cpMJdQWMUCM"
                 }
             ],
@@ -717,7 +732,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB99.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB99.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB99.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/g8NF-xVSOkk"
                 }
             ],
@@ -764,7 +780,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB93.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB93.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB93.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/R1W1OoxpCr8"
                 }
             ],
@@ -811,7 +828,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB97.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB97.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB97.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/9B4aQ8xm8K8"
                 }
             ],
@@ -858,7 +876,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB79.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB79.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB79.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/4fNH3XepMzc"
                 }
             ],
@@ -905,7 +924,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB78.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB78.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB78.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/2IZTGdQNlII"
                 }
             ],
@@ -952,7 +972,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB119.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB119.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB119.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/1MddBv4dm7I"
                 }
             ],
@@ -999,7 +1020,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB65.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB65.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB65.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/22c0H0Gj0Oo"
                 }
             ],
@@ -1046,7 +1068,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB194.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB194.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB194.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/T5vfpglz5Qg"
                 }
             ],
@@ -1093,7 +1116,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB60.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB60.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB60.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/NIUxC06LsCA"
                 }
             ],
@@ -1140,7 +1164,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TW35.png"),
+                    "img": require("../../assets/fireworks/battery/png/TW35.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TW35.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/HTG32a-bNT8"
                 }
             ],
@@ -1187,7 +1212,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB104.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB104.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB104.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/fkiN-RqOcGw"
                 }
             ],
@@ -1234,7 +1260,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TW36.png"),
+                    "img": require("../../assets/fireworks/battery/png/TW36.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TW36.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/L2JhJNSAR1c"
                 }
             ],
@@ -1281,7 +1308,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB181.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB181.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB181.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/PqElG3HJapU"
                 }
             ],
@@ -1328,7 +1356,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB180.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB180.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB180.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/YMFUdB7tufw"
                 }
             ],
@@ -1375,7 +1404,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB11.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB11.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB11.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/TvbxR66fkyo"
                 }
             ],
@@ -1422,7 +1452,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB96.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB96.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB96.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/FdEP69iaWBw"
                 }
             ],
@@ -1469,7 +1500,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB86.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB86.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB86.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/vZwBsB0HSNg"
                 }
             ],
@@ -1516,7 +1548,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB58.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB58.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB58.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/tq4d1qesF8s"
                 }
             ],
@@ -1563,7 +1596,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB102.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB102.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB102.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/-izR_sv9-lg"
                 }
             ],
@@ -1610,7 +1644,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TW44.png"),
+                    "img": require("../../assets/fireworks/battery/png/TW44.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TW44.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/sPQKNYUxN7g&t"
                 }
             ],
@@ -1657,7 +1692,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB95.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB95.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB95.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/_K8hkAsHgVs&t"
                 }
             ],
@@ -1704,7 +1740,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB175.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB175.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB175.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/DmcZtieTCkc&t"
                 }
             ],
@@ -1751,7 +1788,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB26.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB26.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB26.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/dOBQn-7Bop0t"
                 }
             ],
@@ -1798,7 +1836,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB40.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB40.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB40.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/SrVbLxZXWqM"
                 }
             ],
@@ -1845,7 +1884,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB41.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB41.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB41.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/A4l-oPLacQw"
                 }
             ],
@@ -1892,7 +1932,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB43.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB43.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB43.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/FazsLvFssLc"
                 }
             ],
@@ -1939,7 +1980,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TW42.png"),
+                    "img": require("../../assets/fireworks/battery/png/TW42.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TW42.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/jIIyHp4itD4"
                 }
             ],
@@ -1986,7 +2028,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TW45.png"),
+                    "img": require("../../assets/fireworks/battery/png/TW45.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TW45.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/DHbVLyXaMWA"
                 }
             ],
@@ -2033,7 +2076,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB7.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB7.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB7.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/V7UZ3nReIiI"
                 }
             ],
@@ -2080,7 +2124,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB19.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB19.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB19.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/ePflZQQn4UU"
                 }
             ],
@@ -2127,7 +2172,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB148.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB148.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB148.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/BO3P-t710QM"
                 }
             ],
@@ -2174,7 +2220,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB146.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB146.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB146.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/GqLrusVcJxc"
                 }
             ],
@@ -2221,7 +2268,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB150.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB150.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB150.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/QHCzNsDzSE8"
                 }
             ],
@@ -2268,7 +2316,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/TB149.png"),
+                    "img": require("../../assets/fireworks/battery/png/TB149.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB149.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/zxa9UBm9vgA"
                 }
             ],
@@ -2316,7 +2365,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/fountain/TF10.png"),
+                    "img": require("../../assets/fireworks/fountain/png/TF10.png"),
+                    "webp": require("../../assets/fireworks/fountain/webp/TF10.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/jiMx-FQHKAk"
                 }
             ],
@@ -2364,7 +2414,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/fountain/TF9.png"),
+                    "img": require("../../assets/fireworks/fountain/png/TF9.png"),
+                    "webp": require("../../assets/fireworks/fountain/webp/TF9.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/XmGBiNahvcs"
                 }
             ],
@@ -2412,7 +2463,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/fountain/TF4.png"),
+                    "img": require("../../assets/fireworks/fountain/png/TF4.png"),
+                    "webp": require("../../assets/fireworks/fountain/webp/TF4.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/Hqw9peOrdJU"
                 }
             ],
@@ -2460,7 +2512,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/fountain/TF15.png"),
+                    "img": require("../../assets/fireworks/fountain/png/TF15.png"),
+                    "webp": require("../../assets/fireworks/fountain/webp/TF15.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/K6s141qiwFg"
                 }
             ],
@@ -2508,7 +2561,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/fountain/0819.png"),
+                    "img": require("../../assets/fireworks/fountain/png/0819.png"),
+                    "webp": require("../../assets/fireworks/fountain/webp/0819.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/IBI3VokQkaY"
                 }
             ],
@@ -2555,7 +2609,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/candle/TRC6.png"),
+                    "img": require("../../assets/fireworks/candle/png/TRC6.png"),
+                    "webp": require("../../assets/fireworks/candle/webp/TRC6.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/XKCnonWyXl8&t"
                 }
             ],
@@ -2602,7 +2657,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/candle/TRC8.png"),
+                    "img": require("../../assets/fireworks/candle/png/TRC8.png"),
+                    "webp": require("../../assets/fireworks/candle/webp/TRC8.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/lqBIofw6mf8"
                 }
             ],
@@ -2649,7 +2705,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/candle/TRC1.png"),
+                    "img": require("../../assets/fireworks/candle/png/TRC1.png"),
+                    "webp": require("../../assets/fireworks/candle/webp/TRC1.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/jrNCs_fpPg0"
                 }
             ],
@@ -2696,7 +2753,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/candle/0345-20.png"),
+                    "img": require("../../assets/fireworks/candle/png/0345-20.png"),
+                    "webp": require("../../assets/fireworks/candle/webp/0345-20.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/Jw5LdnU1NkI"
                 }
             ],
@@ -2743,7 +2801,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/rocket/TR08.png"),
+                    "img": require("../../assets/fireworks/rocket/png/TR08.png"),
+                    "webp": require("../../assets/fireworks/rocket/webp/TR08.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/UbyWTHdekKE"
                 }
             ],
@@ -2790,7 +2849,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/rocket/TA51.png"),
+                    "img": require("../../assets/fireworks/rocket/png/TA51.png"),
+                    "webp": require("../../assets/fireworks/rocket/webp/TA51.webp"),
                     "video": "-"
                 }
             ],
@@ -2837,7 +2897,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/rocket/TR05.png"),
+                    "img": require("../../assets/fireworks/rocket/png/TR05.png"),
+                    "webp": require("../../assets/fireworks/rocket/webp/TR05.webp"),
                     "video": "-"
                 }
             ],
@@ -2884,7 +2945,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/rocket/TR06.png"),
+                    "img": require("../../assets/fireworks/rocket/png/TR06.png"),
+                    "webp": require("../../assets/fireworks/rocket/webp/TR06.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/k2nLXUaNRwU"
                 }
             ],
@@ -2931,7 +2993,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/rocket/TA50.png"),
+                    "img": require("../../assets/fireworks/rocket/png/TA50.png"),
+                    "webp": require("../../assets/fireworks/rocket/webp/TA50.webp"),
                     "video": "-"
                 }
             ],
@@ -2978,7 +3041,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/rocket/TA53.png"),
+                    "img": require("../../assets/fireworks/rocket/png/TA53.png"),
+                    "webp": require("../../assets/fireworks/rocket/webp/TA53.webp"),
                     "video": "-"
                 }
             ],
@@ -3025,7 +3089,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/rocket/TA33.png"),
+                    "img": require("../../assets/fireworks/rocket/png/TA33.png"),
+                    "webp": require("../../assets/fireworks/rocket/webp/TA33.webp"),
                     "video": "-"
                 }
             ],
@@ -3072,7 +3137,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/rocket/0445.png"),
+                    "img": require("../../assets/fireworks/rocket/png/0445.png"),
+                    "webp": require("../../assets/fireworks/rocket/webp/0445.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/Dp04CDmbyhk&t"
                 }
             ],
@@ -3119,7 +3185,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/other/TR9901.png"),
+                    "img": require("../../assets/fireworks/other/png/TR9901.png"),
+                    "webp": require("../../assets/fireworks/other/webp/TR9901.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/CxbXdrDwbzI"
                 }
             ],

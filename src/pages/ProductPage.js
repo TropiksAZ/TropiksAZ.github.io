@@ -56,7 +56,14 @@ const ProductPage = () => {
                     <section
                         className='standart-padding standart-margin'
                     >
-                        <figure>
+                        <picture>
+                            <source 
+                                type='image/webp' 
+                                srcSet=
+                                    {
+                                        el.media[0].webp
+                                    } 
+                            />
                             <img 
                                 alt=
                                     {
@@ -69,7 +76,7 @@ const ProductPage = () => {
                                 height={'auto'}
                                 width={'auto'}
                             />
-                        </figure>
+                        </picture>
                     </section>
 
                     <section
