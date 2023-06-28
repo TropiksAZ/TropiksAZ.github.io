@@ -4,7 +4,7 @@
 
 //** Hero section to be used on LandingPage.js before the main content */
 
-const HeroSection = () => {
+const VideoSection = () => {
 
     //** FUNCTION HEAD */
 
@@ -13,11 +13,13 @@ const HeroSection = () => {
     //** RETURN FUNCTION */
     return (
         <section
-            className='hero-section'
+            className='video-section'
         >
                 <video
-                    autoPlay loop playsInline muted
-                    className='hero-video'
+                    autoPlay 
+                    loop 
+                    playsInline 
+                    muted
                 >
                     <source 
                         src=
@@ -29,7 +31,7 @@ const HeroSection = () => {
                 </video>
 
                 <h2
-                    className='hero-text'
+                    className='video-text'
                 >
                     Noslēdz svētkus<br/>
                     ar <span>UGUŅOŠANU!</span>
@@ -39,4 +41,4 @@ const HeroSection = () => {
     )
 };
 
-export default HeroSection;
+export default VideoSection;

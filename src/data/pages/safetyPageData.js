@@ -12,7 +12,7 @@ const safetyPageData = [
             }
         ],
         'safetyVideo': 'https://www.youtube-nocookie.com/embed/8E-G5UHuxCQ',
-        'rulesIntro': 'Papildus ieteikumi',
+        'rulesIntro': 'Citi ieteikumi',
         'otherRules': [
             {
                 'id': 'otherRule0',

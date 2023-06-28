@@ -24,7 +24,7 @@ const ContactPage = () => {
         >
 
             <section
-                className='main-page-title standart-padding'
+                className='main-page-title'
             >
                 <h1>
                     Mūsu <span>KONTAKTI</span>
@@ -43,7 +43,7 @@ const ContactPage = () => {
             />
 
             <address
-                className='standart-padding standart-margin'
+                className=' standart-margin'
             >
                 <b>
                     VEIKALA ADRESE: <a 
@@ -90,7 +90,7 @@ const ContactPage = () => {
             </address>
 
                 <h2
-                    className='standart-padding standart-margin'
+                    className=' standart-margin'
                 >
                     Veikala darba laiks
                 </h2>
@@ -138,7 +138,7 @@ const ContactPage = () => {
                 </section>
 
                 <section
-                    className='standart-padding standart-margin'
+                    className=' standart-margin'
                 >
                     <p>
                         {
@@ -184,7 +184,7 @@ const ContactPage = () => {
                 </section>
                 
                 <h2
-                    className='standart-padding standart-margin'
+                    className=' standart-margin'
                 >
                     {
                         contactPageData[0].propsIntro

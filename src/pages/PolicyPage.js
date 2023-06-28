@@ -35,6 +35,8 @@ const PolicyPage = () => {
                                 <img
                                     alt='An icon representing each pdf file displayed on this page'
                                     src={pdfIMG}
+                                    width={'100px'}
+                                    height={'115px'}
                                 />
                             </figure>
                             <i>SIA 'Tropiks AZ' noteikumi un privātuma politika.pdf</i>

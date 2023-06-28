@@ -17,7 +17,7 @@
     import onlyUnique from '../functions/onlyUnique.js';
 
 //* Imports the hero section to be used at the top of the landing page */
-    import HeroSection from '../components/HeroSection.js';
+    import VideoSection from '../components/VideoSection.js';
 
 //** Page to be used as the '/' or root, or index route */
 
@@ -91,7 +91,7 @@ const LandingPage = () => {
     return (
         <section>
             
-            <HeroSection />
+            <VideoSection />
 
             <main
                 className='landing-page'
@@ -230,8 +230,8 @@ const LandingPage = () => {
                                                         {
                                                             product.media[0].img
                                                         }
-                                                    height={'auto'}
-                                                    width={'auto'}
+                                                    height={'100%'}
+                                                    width={'350px'}
                                                 />
                                             </picture>
                                         </section>

@@ -23,37 +23,31 @@ const SafetyPage = () => {
             className='safety-page'
         >
 
-            <section
-                className='main-page-title standart-padding'
+            <h1
+                className='main-page-title'
             >
-                <h1>
-                    Šaujiet <span>DROŠI!</span> 
-                </h1>
-            </section>
+                Šaujiet <span>DROŠI!</span> 
+            </h1>
             
-            <section
-                className='standart-padding'
-            >
-                {
-                    safetyPageData[0].subText.map(e => {
-                        return (
-                            <section
-                                key=
-                                    {
-                                        e.id
-                                    }
-                            >
-                                <p>
-                                    {
-                                        e.text
-                                    }
-                                </p>
-                                <br/>
-                            </section>
-                        )
-                    })
-                }
-            </section>
+            {
+                safetyPageData[0].subText.map(e => {
+                    return (
+                        <section
+                            key=
+                                {
+                                    e.id
+                                }
+                        >
+                            <p>
+                                {
+                                    e.text
+                                }
+                            </p>
+                            <br/>
+                        </section>
+                    )
+                })
+            }
 
             <iframe 
                 src=
@@ -61,43 +55,37 @@ const SafetyPage = () => {
                         safetyPageData[0].safetyVideo
                     } 
                 title='"Youtube" video, kurā ir izskaidroti pirotehnikas lietošanas noteikumi' 
-                className='safety-video-frame standart-margin'
+                className='video-frame standart-margin'
                 allowFullScreen
             />
 
-            <section
-                className='standart-padding standart-margin'
+            <h2
+                className='standart-margin'
             >
-                <h2>
-                    {
-                        safetyPageData[0].rulesIntro
-                    }
-                </h2>
-            </section>
+                {
+                    safetyPageData[0].rulesIntro
+                }
+            </h2>
 
-            <section
-                className='standart-padding'
-            >
-                <ul>
-                    {
-                        safetyPageData[0].otherRules.map(e => {
-                            return (
-                                <li
-                                    key=
-                                        {
-                                            e.id
-                                        }
-                                    className='comet-li'
-                                >
+            <ul>
+                {
+                    safetyPageData[0].otherRules.map(e => {
+                        return (
+                            <li
+                                key=
                                     {
-                                        e.text
+                                        e.id
                                     }
-                                </li>
-                            )
-                        })
-                    }
-                </ul>
-            </section>
+                                className='comet-li'
+                            >
+                                {
+                                    e.text
+                                }
+                            </li>
+                        )
+                    })
+                }
+            </ul>
 
         </main>
     )

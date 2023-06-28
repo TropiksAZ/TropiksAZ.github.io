@@ -30,11 +30,21 @@ html {
 }
 
 //** Uniform padding and margin around App */
-.standart-padding {
-    padding: 0 $standart-padding; //* Padding for left and right, zero for top and bottom
-}
 .standart-margin {
     margin-bottom: 5rem; //* Used for different sections around the App */
+}
+
+//** Iframe format *
+.video-frame {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+
+.google-maps-frame {
+    width: 100%;
+        height: 26rem;
+    border: none;
 }
 
 
@@ -169,17 +179,17 @@ footer {
 
 //**====== HERO SECTION ======*/
 
-.hero-section {
+.video-section {
     position: relative;
 
-    .hero-video {
+    video {
         //* Hero section - Make the video cover the view-port noth in width and height */
             object-fit: cover;
                 width:100vw;
                 height:100vh; 
     }
     
-    .hero-text {
+    .video-text {
         //** Overley the text over the hero section */
         position: absolute; //** Determine it's position */
             bottom: 8%;
@@ -288,15 +298,6 @@ footer {
         margin-top: 1rem;
             color: $ghost-white;
     }
-
-    .product-video-container, .product-video-frame {
-        width: 100%;
-        border: none;
-
-        .product-video-frame {
-            height: 600px;
-        }
-    }
 }
 
 //**====== Contacts page ======*/
@@ -305,12 +306,6 @@ footer {
 
     display: flex;
         flex-direction: column;
-
-    .google-maps-frame {
-        width: 100%;
-            height: 26rem;
-        border: none;
-    }
 
     address {
         display: flex;
@@ -346,11 +341,6 @@ footer {
 .safety-page {
     @include flex-collumn-center;
 
-    .safety-video-frame {
-        width: 100%;
-        height: 550px;
-    }
-
     ul {
         display: flex;
             flex-direction: column;      
@@ -377,11 +367,6 @@ footer {
             text-align: center;
 
             padding: 0 $standart-padding 0 $standart-padding;
-
-            img {
-                width: 8rem;
-                height: auto;
-            }
         }
     }
 
@@ -394,12 +379,14 @@ footer {
             font-size: $px45;
         }
 
-        .standart-padding {
+        .safety-page, .contact-page, .product-page {
             padding: 0 $standart-padding-mobile;
         }
 
         table {
             width:100%;
+
+            font-size: $px16;
         }
 
         nav {
@@ -414,8 +401,8 @@ footer {
             }
         }
 
-        .hero-section {
-            .hero-text {
+        .video-section {
+            .video-text {
                 right: 10%;
             }
         }
@@ -426,6 +413,14 @@ footer {
             }
         }
 
+        .video-frame {
+            height: 300px;
+        }
+
+        .google-maps-frame {
+            height: 15rem;
+        }
+
         footer {
             padding: 0 1.2rem 0 1.2rem;
         }
@@ -433,6 +428,11 @@ footer {
 
     //* DESKTOP SCREENS */
     @media only screen and (min-width: 867px) {
+
+        .safety-page, .contact-page, .product-page {
+            padding: 0 $standart-padding;
+        }
+
         .policy-frame {
             width: 826px;
                 height: 500px;

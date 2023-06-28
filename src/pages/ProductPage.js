@@ -38,7 +38,7 @@ const ProductPage = () => {
                     className='product-page'
                 >
                     <section
-                        className='main-page-title standart-padding'
+                        className='main-page-title'
                     >
                         <h1>
                             {el.id}<br/><span>{el.name}</span>
@@ -53,57 +53,50 @@ const ProductPage = () => {
                         </h2>
                     </section>
 
-                    <section
-                        className='standart-padding standart-margin'
+                    <picture
+                        className='standart-margin'
                     >
-                        <picture>
-                            <source 
-                                type='image/webp' 
-                                srcSet=
-                                    {
-                                        el.media[0].webp
-                                    } 
-                            />
-                            <img 
-                                alt=
-                                    {
-                                        "Bilde ar pirotehnisko izstrādājumu " + el.id + ' - ' + el.name
-                                    }
+                        <source 
+                            type='image/webp' 
+                            srcSet=
+                                {
+                                    el.media[0].webp
+                                } 
+                        />
+                        <img 
+                            alt=
+                                {
+                                    "Bilde ar pirotehnisko izstrādājumu " + el.id + ' - ' + el.name
+                                }
+                            src=
+                                {
+                                    el.media[0].img
+                                }
+                            height={'100%'}
+                            width={'400px'}
+                        />
+                    </picture>
+
+                    {
+                        el.media[0].video === '-' 
+                        ? 
+                            <p
+                                style={{
+                                    textAlign:'center'
+                                }}
+                            ><i>*Pašlaik šim pirotehnikas izstrādājumam "{el.id + ' - ' + el.name}" <br/> nav pieejams demonstrācijas video</i></p>
+                        :
+                            <iframe
+                                className='video-frame standart-margin'
+                                name='youtube-player'
+                                title='Youtube video, kurā var redzēt pirotehnisko izstrādājumu darbībā'
                                 src=
                                     {
-                                        el.media[0].img
+                                        el.media[0].video + "?rel=0"
                                     }
-                                height={'auto'}
-                                width={'auto'}
+                                allowFullScreen
                             />
-                        </picture>
-                    </section>
-
-                    <section
-                        className='standart-margin product-video-container'
-                    >
-                        {
-                            el.media[0].video === '-' 
-                            ? 
-                                <p
-                                    className='standart-padding'
-                                    style={{
-                                        textAlign:'center'
-                                    }}
-                                ><i>*Pašlaik šim pirotehnikas izstrādājumam "{el.id + ' - ' + el.name}" <br/> nav pieejams demonstrācijas video</i></p>
-                            :
-                                <iframe
-                                    className='product-video-frame'
-                                    name='youtube-player'
-                                    title='Youtube video, kurā var redzēt pirotehnisko izstrādājumu darbībā'
-                                    src=
-                                        {
-                                            el.media[0].video + "?rel=0"
-                                        }
-                                    allowFullScreen
-                                />
-                        }
-                    </section>
+                    }
 
                     <table>
                         <thead>
