@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1.0, user-scalable=no" />
     <meta name="theme-color" content="#1b1b1b" />
     <meta
       name="description"
@@ -11,7 +11,7 @@
     />
     <meta http-equiv="Content-Security-Policy" content="default-src 'self';
     base-uri 'self';
-    img-src 'self';
+    img-src data: 'https:' 'http:' 'self';
     script-src 'self' 'unsafe-inline';
     style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; 
     font-src 'self' https://fonts.gstatic.com;

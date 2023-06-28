@@ -16,7 +16,7 @@ const HeroSection = () => {
             className='hero-section'
         >
                 <video
-                    autoPlay loop playsInLine muted
+                    autoPlay loop playsInline muted
                     className='hero-video'
                 >
                     <source 

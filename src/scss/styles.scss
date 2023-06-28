@@ -404,7 +404,7 @@ footer {
 
         nav {
             justify-content: center;
-                padding: 1.5rem $standart-padding 1.5rem $standart-padding;
+                padding: 1.5rem $standart-padding-mobile 1.5rem $standart-padding-mobile;
         
             .nav-links {
                     gap: 1.5rem;
@@ -432,7 +432,7 @@ footer {
     }
 
     //* DESKTOP SCREENS */
-    @media only screen and (min-width: 861px) {
+    @media only screen and (min-width: 867px) {
         .policy-frame {
             width: 826px;
                 height: 500px;

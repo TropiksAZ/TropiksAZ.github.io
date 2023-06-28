@@ -67,7 +67,7 @@ const ProductPage = () => {
                                         el.media[0].img
                                     }
                                 height={'auto'}
-                                width={'400px'}
+                                width={'auto'}
                             />
                         </figure>
                     </section>
