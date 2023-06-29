@@ -37,35 +37,35 @@ const App = () => {
 
           <Routes>
               <Route 
-                path='/' 
+                exact path='/' 
                 element=
                   {
                     <LandingPage />
                   } 
               />
               <Route 
-                path='/product/:id' 
+                exact path='/product/:id' 
                 element=
                   {
                     <ProductPage />
                   } 
               /> 
               <Route 
-                path='/contact'
+                exact path='/contact'
                 element=
                   {
                     <ContactPage />
                   } 
               />
               <Route 
-                path='/safety' 
+                exact path='/safety' 
                 element=
                   {
                     <SafetyPage />
                   } 
               />
               <Route 
-                path='/policy' 
+                exact path='/policy' 
                 element=
                   {
                     <PolicyPage />

@@ -1,6 +1,7 @@
 
 //** Video for the hero section - the be looped without audio */
-    import heroVideo from '../assets/video/heroBackground.mp4';
+    import backgroundVideo from '../assets/video/backgroundVideo.mp4';
+    import videoPoster from '../assets/video/backgroundVideoPoster.png';
 
 //** Hero section to be used on LandingPage.js before the main content */
 
@@ -20,14 +21,19 @@ const VideoSection = () => {
                     loop 
                     playsInline 
                     muted
+                    poster=
+                        {
+                            videoPoster
+                        }
                 >
                     <source 
                         src=
                         {
-                            heroVideo
+                            backgroundVideo
                         }
                         type='video/mp4'
                     />
+                There should be a background video here, but your browser does not support the HTML video tag.
                 </video>
 
                 <h2

@@ -11,6 +11,11 @@
     $standart-padding-mobile: 2.5rem;
     $main-top-padding: 8rem;
 
+//** Media querie breakpoints */
+
+    $mobile-breakpoint: 425px;  //* All screens untill this */
+    $desktop-breakpoint: 426px; //* All screens starting from this and beyound */
+
 //** RESPONSIVE FONT SIZES */
 
 $px14: 0.875rem;

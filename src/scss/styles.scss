@@ -373,7 +373,7 @@ footer {
 //**====== Media Queries =======*/
 
     //** MOBILE SCREENS */
-    @media only screen and (max-width: 866px)  {
+    @media only screen and (max-width: $mobile-breakpoint)  {
 
         h1 {
             font-size: $px45;
@@ -427,7 +427,7 @@ footer {
     }
 
     //* DESKTOP SCREENS */
-    @media only screen and (min-width: 867px) {
+    @media only screen and (min-width: $desktop-breakpoint) {
 
         .safety-page, .contact-page, .product-page {
             padding: 0 $standart-padding;
