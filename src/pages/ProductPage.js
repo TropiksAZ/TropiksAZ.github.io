@@ -73,7 +73,7 @@ const ProductPage = () => {
                                     el.media[0].img
                                 }
                             height={'100%'}
-                            width={'400px'}
+                            width={'350px'}
                         />
                     </picture>
 

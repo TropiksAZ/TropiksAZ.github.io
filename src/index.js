@@ -73,7 +73,7 @@ const App = () => {
               />
           </Routes>
 
-      <ScrollToTopButton />
+      {/* <ScrollToTopButton />*/}
 
       <FooterSection />
 

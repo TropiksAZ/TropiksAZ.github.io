@@ -373,6 +373,7 @@ footer {
 //**====== Media Queries =======*/
 
     //** MOBILE SCREENS */
+    //** If the font on mobile is less than 16px it will scale in */
     @media only screen and (max-width: $mobile-breakpoint)  {
 
         h1 {
@@ -391,12 +392,12 @@ footer {
 
         nav {
             justify-content: center;
-                padding: 1.5rem $standart-padding-mobile 1.5rem $standart-padding-mobile;
+                padding: 1.5rem 5px 1.5rem 5px;
         
             .nav-links {
-                    gap: 1.5rem;
+                    gap: 0.6rem;
                 li a {
-                    font-size: $px14;
+                    font-size: $px16;
                 }
             }
         }
@@ -434,7 +435,7 @@ footer {
         }
 
         .policy-frame {
-            width: 826px;
+            // width: 10rem;
                 height: 500px;
             //!! Actually makes the frame stick into the website */
             zoom: 1.00;
