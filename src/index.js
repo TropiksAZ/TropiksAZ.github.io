@@ -76,6 +76,10 @@ const App = () => {
                 exact path='/sitemap.xml' 
                 onEnter={reload}
               />
+              <Route 
+                exact path='/robots.txt' 
+                onEnter={reload}
+              />
           </Routes>
 
       <ScrollToTopButton />
