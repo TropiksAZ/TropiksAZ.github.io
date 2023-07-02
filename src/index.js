@@ -44,28 +44,28 @@ const App = () => {
                   } 
               />
               <Route 
-                exact path='/product/:id' 
+                exact path='/produkti/:id' 
                 element=
                   {
                     <ProductPage />
                   } 
               /> 
               <Route 
-                exact path='/contact'
+                exact path='/kontakti'
                 element=
                   {
                     <ContactPage />
                   } 
               />
               <Route 
-                exact path='/safety' 
+                exact path='/drosiba' 
                 element=
                   {
                     <SafetyPage />
                   } 
               />
               <Route 
-                exact path='/policy' 
+                exact path='/noteikumi' 
                 element=
                   {
                     <PolicyPage />

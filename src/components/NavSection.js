@@ -25,7 +25,7 @@ const NavSection = () => {
                 </li>
                 <li>
                     <NavLink 
-                        to='/contact'
+                        to='/kontakti'
                         className='nav-link'
                     >
                         KONTAKTI
@@ -33,7 +33,7 @@ const NavSection = () => {
                 </li>
                 <li>
                     <NavLink 
-                        to='/safety'
+                        to='/drosiba'
                         className='nav-link'
                     >
                         DROŠĪBA
@@ -41,7 +41,7 @@ const NavSection = () => {
                 </li>
                 <li>
                     <NavLink 
-                        to='/policy'
+                        to='/noteikumi'
                         className='nav-link'
                     >
                         NOTEIKUMI

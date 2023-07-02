@@ -207,7 +207,7 @@ const LandingPage = () => {
                                 >
                                     <Link
                                         to={{
-                                            pathname: `/product/${product.id}`
+                                            pathname: `/produkti/${product.id}`
                                         }}
                                         className='product-link'
                                     >
