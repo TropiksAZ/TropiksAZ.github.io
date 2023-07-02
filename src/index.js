@@ -27,9 +27,10 @@ import React from 'react';
   import PolicyPage from './pages/PolicyPage';
 
 
-
-
 const App = () => {
+
+  const reload = () => window.location.reload();
+
   return (
     <section className='App'>
 
@@ -70,6 +71,10 @@ const App = () => {
                   {
                     <PolicyPage />
                   } 
+              />
+              <Route 
+                exact path='/sitemap.xml' 
+                onEnter={reload}
               />
           </Routes>
 
