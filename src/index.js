@@ -97,7 +97,9 @@ root.render(
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
 
-          <BrowserRouter>
+          <BrowserRouter
+            basename='/'
+          >
 
             <App />
 
