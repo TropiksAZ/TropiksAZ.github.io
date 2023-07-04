@@ -3,7 +3,8 @@ import React from 'react';
 //** REACT ROUTER IMPORTS - for creating routes a.k.a. "page urls" */
 //** ...in the form of <BrowserRouter /> */
   import ReactDOM from 'react-dom/client';
-  import { BrowserRouter, Routes, Route } from 'react-router-dom';
+//* BrowserRouter was swapped out for HashRouter to improve Google crawler indexing */
+  import { HashRouter, Routes, Route } from 'react-router-dom';
 
 //** REDUX IMPORTS - for wrapping the redux store around App and thus allowing access to redux state from anywhere */
 //** ...in the form of <Provider /> and <PersistGate /> */
@@ -97,13 +98,13 @@ root.render(
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
 
-          <BrowserRouter
+          <HashRouter
             basename='/'
           >
 
             <App />
 
-          </BrowserRouter>
+          </HashRouter>
         </PersistGate>
       </Provider>
     
