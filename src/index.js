@@ -3,7 +3,6 @@ import React from 'react';
 //** REACT ROUTER IMPORTS - for creating routes a.k.a. "page urls" */
 //** ...in the form of <BrowserRouter /> */
   import ReactDOM from 'react-dom/client';
-//* BrowserRouter was swapped out for HashRouter to improve Google crawler indexing */
   import { HashRouter, Routes, Route } from 'react-router-dom';
 
 //** REDUX IMPORTS - for wrapping the redux store around App and thus allowing access to redux state from anywhere */
@@ -39,46 +38,46 @@ const App = () => {
 
           <Routes>
               <Route 
-                exact path='/' 
+                path='/' 
                 element=
                   {
                     <LandingPage />
                   } 
               />
               <Route 
-                exact path='/produkti/:id' 
+                path='/produkti/:id' 
                 element=
                   {
                     <ProductPage />
                   } 
               /> 
               <Route 
-                exact path='/kontakti'
+                path='/kontakti'
                 element=
                   {
                     <ContactPage />
                   } 
               />
               <Route 
-                exact path='/drosiba' 
+                path='/drosiba' 
                 element=
                   {
                     <SafetyPage />
                   } 
               />
               <Route 
-                exact path='/noteikumi' 
+                path='/noteikumi' 
                 element=
                   {
                     <PolicyPage />
                   } 
               />
               <Route 
-                exact path='/sitemap.xml' 
+                path='/sitemap.xml' 
                 onEnter={reload}
               />
               <Route 
-                exact path='/robots.txt' 
+                path='/robots.txt' 
                 onEnter={reload}
               />
           </Routes>
@@ -98,9 +97,7 @@ root.render(
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
 
-          <HashRouter
-            basename='/'
-          >
+          <HashRouter>
 
             <App />
 
