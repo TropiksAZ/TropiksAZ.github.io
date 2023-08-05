@@ -31,6 +31,7 @@ const ContactPage = () => {
                 </h1>
             </section>
 
+            {/*
             <iframe 
                 title='Tropiks veikala atrašānās vietas attēlojums, izmantojot "Google Maps"'
                     src=
@@ -41,6 +42,7 @@ const ContactPage = () => {
                 referrerPolicy='no-referrer-when-downgrade'
                 className='google-maps-frame standart-margin'
             />
+            */}
 
             <address
                 className=' standart-margin'
