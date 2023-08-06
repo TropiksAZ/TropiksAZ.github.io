@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.56ce158d.css",
+    "main.css": "/static/css/main.cb444009.css",
     "main.js": "/static/js/main.c796a538.js",
     "static/media/backgroundVideo.mp4": "/static/media/backgroundVideo.8f1bfab98d65f5450287.mp4",
     "static/media/backgroundVideoPoster.png": "/static/media/backgroundVideoPoster.70765d313d5d44f43dc9.png",
@@ -86,12 +86,18 @@
     "static/media/TB97.webp": "/static/media/TB97.3efa0bac077047c84cda.webp",
     "static/media/TB180.webp": "/static/media/TB180.c9dee93b4a959b2f3aad.webp",
     "static/media/TB400.webp": "/static/media/TB400.6732ad52191e10dddee2.webp",
+    "static/media/montserrat-v25-latin_latin-ext-700italic.woff2": "/static/media/montserrat-v25-latin_latin-ext-700italic.8890a9da7abfc0bd5d3f.woff2",
     "static/media/TB181.webp": "/static/media/TB181.7fad58e3a41891230801.webp",
+    "static/media/montserrat-v25-latin_latin-ext-italic.woff2": "/static/media/montserrat-v25-latin_latin-ext-italic.39accf6d13da717a2ab0.woff2",
+    "static/media/montserrat-v25-latin_latin-ext-700.woff2": "/static/media/montserrat-v25-latin_latin-ext-700.e719255d9e1b41c204a0.woff2",
     "static/media/TB60.webp": "/static/media/TB60.0bf7621cf06fb8bbd29d.webp",
     "static/media/TB191.webp": "/static/media/TB191.5babcfbc221f34e664d2.webp",
     "static/media/TB300.webp": "/static/media/TB300.c33ff8240f1de1554bad.webp",
+    "static/media/montserrat-v25-latin_latin-ext-regular.woff2": "/static/media/montserrat-v25-latin_latin-ext-regular.a351aa11871cd23dc84b.woff2",
+    "static/media/montserrat-v25-latin_latin-ext-900italic.woff2": "/static/media/montserrat-v25-latin_latin-ext-900italic.e35660de336809815f40.woff2",
     "static/media/TB94.webp": "/static/media/TB94.e1a1c33bfebadbece88b.webp",
     "static/media/TB119.webp": "/static/media/TB119.6f1d31ed7ee114e6f845.webp",
+    "static/media/montserrat-v25-latin_latin-ext-900.woff2": "/static/media/montserrat-v25-latin_latin-ext-900.bf65b2218245c7c0a807.woff2",
     "static/media/TB78.webp": "/static/media/TB78.42b3559d2359fcea40ba.webp",
     "static/media/TB206.webp": "/static/media/TB206.f6e864d5171e3326e357.webp",
     "static/media/TB308.webp": "/static/media/TB308.f6e864d5171e3326e357.webp",
@@ -134,11 +140,11 @@
     "static/media/TF9.webp": "/static/media/TF9.67ae4a9d749b1a1b582a.webp",
     "static/media/TRC1.webp": "/static/media/TRC1.8335bc2696689c020c7f.webp",
     "index.html": "/index.html",
-    "main.56ce158d.css.map": "/static/css/main.56ce158d.css.map",
+    "main.cb444009.css.map": "/static/css/main.cb444009.css.map",
     "main.c796a538.js.map": "/static/js/main.c796a538.js.map"
   },
   "entrypoints": [
-    "static/css/main.56ce158d.css",
+    "static/css/main.cb444009.css",
     "static/js/main.c796a538.js"
   ]
 }
