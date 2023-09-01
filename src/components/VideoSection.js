@@ -23,21 +23,21 @@ const VideoSection = () => {
                 <picture>
                     <source 
                         type='image/webp'
-                        srcset={webpPoster}
+                        srcSet={webpPoster}
                     />
                     <source 
                         type='image/png'
-                        srcset={pngPoster}
+                        srcSet={pngPoster}
                     />
                     <source 
                         media='(max-width: 425px)'
                         type='image/webp'
-                        srcset={webpPosterMobile}
+                        srcSet={webpPosterMobile}
                     />
                     <source
                         media='(max-width: 425px)'
                         type='image/png'
-                        srcset={pngPosterMobile}
+                        srcSet={pngPosterMobile}
                     />
                     <img 
                         src={webpPoster}
