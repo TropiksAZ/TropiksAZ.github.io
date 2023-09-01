@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.99f13031.css",
-    "main.js": "/static/js/main.0e7c2c59.js",
+    "main.js": "/static/js/main.8d6731ab.js",
     "static/media/backgroundVideoPoster.png": "/static/media/backgroundVideoPoster.ad753b9d3bc221ca9500.png",
     "static/media/backgroundVideoPoster.webp": "/static/media/backgroundVideoPoster.8dc4f6030ceafb25212d.webp",
     "static/media/TA53.png": "/static/media/TA53.5e75f433f12827ee5e51.png",
@@ -10,8 +10,7 @@
     "static/media/TB407.png": "/static/media/TB407.a16b143dc65fd46f61e2.png",
     "static/media/TB62.png": "/static/media/TB62.d93045631bf64ee0f0f6.png",
     "static/media/TA50.png": "/static/media/TA50.b1224dbae947a3e2e9de.png",
-    "static/media/TB206.png": "/static/media/TB206.311c3c63ed1cc69086cb.png",
-    "static/media/TB308.png": "/static/media/TB308.311c3c63ed1cc69086cb.png",
+    "static/media/TB206-TB308.png": "/static/media/TB206-TB308.311c3c63ed1cc69086cb.png",
     "static/media/TB104.png": "/static/media/TB104.c52c6390cecbc982f2dc.png",
     "static/media/TB97.png": "/static/media/TB97.6d17d736c15c5db33e7f.png",
     "static/media/TB405.png": "/static/media/TB405.808efc3d5f16593076cf.png",
@@ -101,8 +100,7 @@
     "static/media/TB119.webp": "/static/media/TB119.6f1d31ed7ee114e6f845.webp",
     "static/media/montserrat-v25-latin_latin-ext-900.woff2": "/static/media/montserrat-v25-latin_latin-ext-900.bf65b2218245c7c0a807.woff2",
     "static/media/TB78.webp": "/static/media/TB78.42b3559d2359fcea40ba.webp",
-    "static/media/TB206.webp": "/static/media/TB206.f6e864d5171e3326e357.webp",
-    "static/media/TB308.webp": "/static/media/TB308.f6e864d5171e3326e357.webp",
+    "static/media/TB206-TB308.webp": "/static/media/TB206-TB308.f6e864d5171e3326e357.webp",
     "static/media/TB79.webp": "/static/media/TB79.397dd7876596b9968fae.webp",
     "static/media/TW36.webp": "/static/media/TW36.54a7dea344ce3dd2605a.webp",
     "static/media/TB99.webp": "/static/media/TB99.c7b6d21d69074ab20824.webp",
@@ -143,10 +141,10 @@
     "static/media/TRC1.webp": "/static/media/TRC1.8335bc2696689c020c7f.webp",
     "index.html": "/index.html",
     "main.99f13031.css.map": "/static/css/main.99f13031.css.map",
-    "main.0e7c2c59.js.map": "/static/js/main.0e7c2c59.js.map"
+    "main.8d6731ab.js.map": "/static/js/main.8d6731ab.js.map"
   },
   "entrypoints": [
     "static/css/main.99f13031.css",
-    "static/js/main.0e7c2c59.js"
+    "static/js/main.8d6731ab.js"
   ]
 }
