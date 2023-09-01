@@ -179,17 +179,17 @@ footer {
 
 //**====== HERO SECTION ======*/
 
-.video-section {
+.header-element-section {
     position: relative;
 
-    video {
+    .header-element {
         //* Hero section - Make the video cover the view-port noth in width and height */
             object-fit: cover;
                 width:100vw;
                 height:100vh; 
     }
     
-    .video-text {
+    .header-element-text {
         //** Overley the text over the hero section */
         position: absolute; //** Determine it's position */
             bottom: 8%;
@@ -402,8 +402,8 @@ footer {
             }
         }
 
-        .video-section {
-            .video-text {
+        .header-element-section {
+            .header-element-text {
                 right: 10%;
             }
         }

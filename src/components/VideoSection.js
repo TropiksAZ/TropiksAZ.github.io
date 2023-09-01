@@ -1,6 +1,6 @@
 
 //** Video for the hero section - the be looped without audio */
-    import backgroundVideo from '../assets/video/backgroundVideo.mp4';
+    // import backgroundVideo from '../assets/video/backgroundVideo.webm';
     import videoPoster from '../assets/video/backgroundVideoPoster.png';
 
 //** Hero section to be used on LandingPage.js before the main content */
@@ -14,8 +14,16 @@ const VideoSection = () => {
     //** RETURN FUNCTION */
     return (
         <section
-            className='video-section'
+            className='header-element-section'
         >
+
+                <img 
+                    alt='Uguņošana uz laipas'
+                    src={videoPoster}
+                    className='header-element'
+                />
+                
+                {/*
                 <video
                     autoPlay 
                     loop 
@@ -35,9 +43,10 @@ const VideoSection = () => {
                     />
                 There should be a background video here, but your browser does not support the HTML video tag.
                 </video>
+                */}
 
                 <h2
-                    className='video-text'
+                    className='header-element-text'
                 >
                     Noslēdz svētkus<br/>
                     ar <span>UGUŅOŠANU!</span>
