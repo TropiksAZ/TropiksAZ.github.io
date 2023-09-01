@@ -4,6 +4,9 @@
     import webpPoster from '../assets/video/backgroundVideoPoster.webp';
     import pngPoster from '../assets/video/backgroundVideoPoster.png';
 
+    import webpPosterMobile from '../assets/video/backgroundVideoPosterMobile.webp';
+    import pngPosterMobile from '../assets/video/backgroundVideoPosterMobile.png';
+
 //** Hero section to be used on LandingPage.js before the main content */
 
 const VideoSection = () => {
@@ -25,6 +28,16 @@ const VideoSection = () => {
                     <source 
                         type='image/png'
                         srcset={pngPoster}
+                    />
+                    <source 
+                        media='(max-width: 425px)'
+                        type='image/webp'
+                        srcset={webpPosterMobile}
+                    />
+                    <source
+                        media='(max-width: 425px)'
+                        type='image/png'
+                        srcset={pngPosterMobile}
                     />
                     <img 
                         src={webpPoster}
