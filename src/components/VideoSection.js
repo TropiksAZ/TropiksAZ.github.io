@@ -1,7 +1,8 @@
 
 //** Video for the hero section - the be looped without audio */
     // import backgroundVideo from '../assets/video/backgroundVideo.webm';
-    import videoPoster from '../assets/video/backgroundVideoPoster.png';
+    import webpPoster from '../assets/video/backgroundVideoPoster.webp';
+    import pngPoster from '../assets/video/backgroundVideoPoster.png';
 
 //** Hero section to be used on LandingPage.js before the main content */
 
@@ -16,12 +17,21 @@ const VideoSection = () => {
         <section
             className='header-element-section'
         >
-
-                <img 
-                    alt='Uguņošana uz laipas'
-                    src={videoPoster}
-                    className='header-element'
-                />
+                <picture>
+                    <source 
+                        type='image/webp'
+                        srcset={webpPoster}
+                    />
+                    <source 
+                        type='image/png'
+                        srcset={pngPoster}
+                    />
+                    <img 
+                        src={webpPoster}
+                        alt='Uguņošana uz laipas'
+                        className='header-element'
+                    />
+                </picture>
                 
                 {/*
                 <video
