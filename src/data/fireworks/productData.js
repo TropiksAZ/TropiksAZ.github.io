@@ -300,8 +300,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/png/TB308.png"),
-                    "webp": require("../../assets/fireworks/battery/webp/TB308.webp"),
+                    "img": require("../../assets/fireworks/battery/png/TB206-TB308.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB206-TB308.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/tjFhrzEA9qI"
                 }
             ],
