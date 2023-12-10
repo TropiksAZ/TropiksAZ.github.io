@@ -48,11 +48,59 @@ const productData = [
             ]
         },
         {
+            "name": "249 shots for Revolution",
+            "id": "TB409",
+            "meta": [
+                {
+                    "display": "yes",
+                    "new": "no",
+                    "sold": "no"
+                }
+            ],
+            "manufacturer": "Tropic",
+            "media": [
+                {
+                    "img": require("../../assets/fireworks/battery/png/TB409.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB409.webp"),
+                    "video": "https://www.youtube.com/watch?v=k_nDnyEw3xA"
+                }
+            ],
+            "info": [
+                {
+                    "name": "Kategorija",
+                    "value": "baterija",
+                },
+                {
+                    "name": "Šāviņu skaits",
+                    "value": "249"
+                },
+                {
+                    "name": "Ilgums (s)",
+                    "value": "130"
+                },
+                {
+                    "name": "Kalibrs (mm)",
+                    "value": "20"
+                },
+                {
+                    "name": "Izmērs (mm)",
+                    "value": "730/270/180"
+                }
+            ],
+            "price": [
+                {
+                    "currency": "EUR",
+                    "symbol": "€",
+                    "value": "250.00"
+                }
+            ]
+        },
+        {
             "name": "Storm Bringer",
             "id": "TB400",
             "meta": [
                 {
-                    "display": "no",
+                    "display": "yes",
                     "new": "no",
                     "sold": "no"
                 }
@@ -148,7 +196,7 @@ const productData = [
             "id": "TB405",
             "meta": [
                 {
-                    "display": "no",
+                    "display": "yes",
                     "new": "no",
                     "sold": "no"
                 }
@@ -196,7 +244,7 @@ const productData = [
             "id": "TB308",
             "meta": [
                 {
-                    "display": "yes",
+                    "display": "no",
                     "new": "no",
                     "sold": "no"
                 }
@@ -244,7 +292,7 @@ const productData = [
             "id": "TB206",
             "meta": [
                 {
-                    "display": "yes",
+                    "display": "no",
                     "new": "no",
                     "sold": "no"
                 }
@@ -331,7 +379,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "200.00"
+                    "value": "220.00"
                 }
             ]
         },
@@ -492,8 +540,8 @@ const productData = [
             "manufacturer": "Tropic",
             "media": [
                 {
-                    "img": require("../../assets/fireworks/battery/png/TB88.png"),
-                    "webp": require("../../assets/fireworks/battery/webp/TB88.webp"),
+                    "img": require("../../assets/fireworks/battery/png/TB85.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB85.webp"),
                     "video": "https://www.youtube-nocookie.com/embed/8pM9OezM69M"
                 }
             ],
@@ -724,7 +772,7 @@ const productData = [
             "id": "TB99",
             "meta": [
                 {
-                    "display": "no",
+                    "display": "yes",
                     "new": "no",
                     "sold": "no"
                 }
@@ -763,7 +811,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "100.00"
+                    "value": "130.00"
                 }
             ]
         },
@@ -964,7 +1012,7 @@ const productData = [
             "id": "TB119",
             "meta": [
                 {
-                    "display": "yes",
+                    "display": "no",
                     "new": "no",
                     "sold": "no"
                 }
@@ -1204,7 +1252,7 @@ const productData = [
             "id": "TB104",
             "meta": [
                 {
-                    "display": "no",
+                    "display": "yes",
                     "new": "no",
                     "sold": "no"
                 }
@@ -1584,6 +1632,54 @@ const productData = [
             ]
         },
         {
+            "name": "Fighter Air Forces",
+            "id": "TB52",
+            "meta": [
+                {
+                    "display": "yes",
+                    "new": "no",
+                    "sold": "no"
+                }
+            ],
+            "manufacturer": "Tropic",
+            "media": [
+                {
+                    "img": require("../../assets/fireworks/battery/png/TB52.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB52.webp"),
+                    "video": "https://www.youtube.com/watch?v=1k3JfHziBkA"
+                }
+            ],
+            "info": [
+                {
+                    "name": "Kategorija",
+                    "value": "baterija",
+                },
+                {
+                    "name": "Šāviņu skaits",
+                    "value": "36"
+                },
+                {
+                    "name": "Ilgums (s)",
+                    "value": "60"
+                },
+                {
+                    "name": "Kalibrs (mm)",
+                    "value": "25"
+                },
+                {
+                    "name": "Izmērs (mm)",
+                    "value": "173/180/180"
+                }
+            ],
+            "price": [
+                {
+                    "currency": "EUR",
+                    "symbol": "€",
+                    "value": "50.00"
+                }
+            ]
+        },
+        {
             "name": "Silver Kamuro",
             "id": "TB102",
             "meta": [
@@ -1628,6 +1724,54 @@ const productData = [
                     "currency": "EUR",
                     "symbol": "€",
                     "value": "50.00"
+                }
+            ]
+        },
+        {
+            "name": "Starlight Bouquet",
+            "id": "TB145",
+            "meta": [
+                {
+                    "display": "yes",
+                    "new": "no",
+                    "sold": "no"
+                }
+            ],
+            "manufacturer": "Tropic",
+            "media": [
+                {
+                    "img": require("../../assets/fireworks/battery/png/TB145.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB145.webp"),
+                    "video": "Starlight Bouquet"
+                }
+            ],
+            "info": [
+                {
+                    "name": "Kategorija",
+                    "value": "baterija",
+                },
+                {
+                    "name": "Šāviņu skaits",
+                    "value": "25"
+                },
+                {
+                    "name": "Ilgums (s)",
+                    "value": "29"
+                },
+                {
+                    "name": "Kalibrs (mm)",
+                    "value": "25"
+                },
+                {
+                    "name": "Izmērs (mm)",
+                    "value": "150/150/175"
+                }
+            ],
+            "price": [
+                {
+                    "currency": "EUR",
+                    "symbol": "€",
+                    "value": "30.00"
                 }
             ]
         },
@@ -1684,7 +1828,7 @@ const productData = [
             "id": "TB95",
             "meta": [
                 {
-                    "display": "no",
+                    "display": "yes",
                     "new": "no",
                     "sold": "no"
                 }
@@ -1723,7 +1867,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "25.00"
+                    "value": "30.00"
                 }
             ]
         },
@@ -1771,7 +1915,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "25.00"
+                    "value": "30.00"
                 }
             ]
         },
@@ -2020,7 +2164,7 @@ const productData = [
             "id": "TW45",
             "meta": [
                 {
-                    "display": "no",
+                    "display": "yes",
                     "new": "no",
                     "sold": "no"
                 }
@@ -2164,7 +2308,7 @@ const productData = [
             "id": "TB148",
             "meta": [
                 {
-                    "display": "no",
+                    "display": "yes",
                     "new": "no",
                     "sold": "no"
                 }
