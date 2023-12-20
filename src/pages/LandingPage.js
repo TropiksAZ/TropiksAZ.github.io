@@ -56,7 +56,7 @@ const LandingPage = () => {
                         return product.info.some(el => el.name === "Kategorija" && el.value === selectedCategory);
                 })
 
-            //* Make sure that the product list is displayed in ascending or descending order - based on <select) */
+            //* Make sure that the product list is displayed in ascending or descending order - based on <select>) */
                 if(selectedPrice === "ascending") {
                     products.sort((a, b) => parseFloat(a.price[0].value) - parseFloat(b.price[0].value));
                 } else if (selectedPrice === "descending") {

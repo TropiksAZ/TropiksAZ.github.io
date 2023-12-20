@@ -10,31 +10,31 @@ const contactPageData = [
         'workingHours': [
             {
                 'day': 'Pirmdiena',
-                'time': 'Slēgts'
+                'time': '10:00 - 20:00'
             },
             {
                 'day': 'Otrdiena',
-                'time': '11:00 - 18:00'
+                'time': '10:00 - 20:00'
             },
             {
                 'day': 'Trešdiena',
-                'time': '11:00 - 18:00'
+                'time': '10:00 - 20:00'
             },
             {
                 'day': 'Ceturtdiena',
-                'time': '11:00 - 18:00'
+                'time': '10:00 - 20:00'
             },
             {
                 'day': 'Piektdiena',
-                'time': '11:00 - 18:00'
+                'time': '10:00 - 20:00'
             },
             {
                 'day': 'Sestdiena',
-                'time': '11:00 - 18:00'
+                'time': '10:00 - 20:00'
             },
             {
                 'day': 'Svētdiena',
-                'time': 'Slēgts'
+                'time': '10:00 - 20:00'
             }
         ],
         'googleMap': 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d544.2747736445085!2d24.1502457!3d56.9299686!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eed1e12f47184b%3A0x8d137453882057db!2sSIA%20%22Tropiks%20AZ%22!5e0!3m2!1slv!2slv!4v1687373520186!5m2!1slv!2slv',

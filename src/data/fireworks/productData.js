@@ -62,7 +62,7 @@ const productData = [
                 {
                     "img": require("../../assets/fireworks/battery/png/TB409.png"),
                     "webp": require("../../assets/fireworks/battery/webp/TB409.webp"),
-                    "video": "https://www.youtube.com/watch?v=k_nDnyEw3xA"
+                    "video": "https://www.youtube-nocookie.com/embed/k_nDnyEw3xA?si=PLZCzenuMpj02W4Q"
                 }
             ],
             "info": [
@@ -91,7 +91,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "250.00"
+                    "value": "250.00",
                 }
             ]
         },
@@ -379,7 +379,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "220.00"
+                    "value": "210.00"
                 }
             ]
         },
@@ -868,7 +868,7 @@ const productData = [
             "id": "TB97",
             "meta": [
                 {
-                    "display": "no",
+                    "display": "yes",
                     "new": "no",
                     "sold": "no"
                 }
@@ -1646,7 +1646,7 @@ const productData = [
                 {
                     "img": require("../../assets/fireworks/battery/png/TB52.png"),
                     "webp": require("../../assets/fireworks/battery/webp/TB52.webp"),
-                    "video": "https://www.youtube.com/watch?v=1k3JfHziBkA"
+                    "video": "https://www.youtube-nocookie.com/embed/1k3JfHziBkA?si=ZnAWW3gtY8dNDFHv"
                 }
             ],
             "info": [
@@ -2352,6 +2352,54 @@ const productData = [
             ]
         },
         {
+            "name": "Piroman Blue",
+            "id": "TB147",
+            "meta": [
+                {
+                    "display": "yes",
+                    "new": "no",
+                    "sold": "no"
+                }
+            ],
+            "manufacturer": "Tropic",
+            "media": [
+                {
+                    "img": require("../../assets/fireworks/battery/png/TB147.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB147.webp"),
+                    "video": "https://www.youtube-nocookie.com/embed/526QQwDzOZE?si=ChrHymiwTUWjbM3v"
+                }
+            ],
+            "info": [
+                {
+                    "name": "Kategorija",
+                    "value": "baterija",
+                },
+                {
+                    "name": "Šāviņu skaits",
+                    "value": "25"
+                },
+                {
+                    "name": "Ilgums (s)",
+                    "value": "26"
+                },
+                {
+                    "name": "Kalibrs (mm)",
+                    "value": "20"
+                },
+                {
+                    "name": "Izmērs (mm)",
+                    "value": "150/120/120"
+                }
+            ],
+            "price": [
+                {
+                    "currency": "EUR",
+                    "symbol": "€",
+                    "value": "10.00"
+                }
+            ]
+        },
+        {
             "name": "Piroman",
             "id": "TB146",
             "meta": [
@@ -2395,7 +2443,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "15.00"
+                    "value": "10.00"
                 }
             ]
         },
