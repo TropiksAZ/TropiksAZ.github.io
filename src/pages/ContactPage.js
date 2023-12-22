@@ -45,49 +45,55 @@ const ContactPage = () => {
             */}
 
             <address
-                className=' standart-margin'
+                className=' standart-margin align-center'
             >
                 <b>
-                    VEIKALA ADRESE: <a 
-                        href=
+                    VEIKALA ADRESE:
+                    <br></br>
+                        <a 
+                            href=
+                                {
+                                    contactPageData[0].contacts.googleMapsLink
+                                } 
+                            target='_blank' 
+                            rel='noreferrer'
+                        >
                             {
-                                contactPageData[0].contacts.googleMapsLink
-                            } 
-                        target='_blank' 
-                        rel='noreferrer'
-                    >
-                        {
-                            contactPageData[0].contacts.adress
-                        }
-                    </a>
+                                contactPageData[0].contacts.adress
+                            }
+                        </a>
                 </b>
 
                 <b>
-                    KONTAKTTĀLRUNIS: <a 
-                        href=
+                    KONTAKTTĀLRUNIS:
+                    <br></br>
+                        <a 
+                            href=
+                                {
+                                    'tel:' + contactPageData[0].contacts.countryCode + contactPageData[0].contacts.phoneNumber
+                                } 
+                            rel='noopener noreferrer'
+                        >
                             {
-                                'tel:' + contactPageData[0].contacts.countryCode + contactPageData[0].contacts.phoneNumber
-                            } 
-                        rel='noopener noreferrer'
-                    >
-                        {
-                            contactPageData[0].contacts.countryCode + ' ' + contactPageData[0].contacts.phoneNumber
-                        }
-                    </a>
+                                contactPageData[0].contacts.countryCode + ' ' + contactPageData[0].contacts.phoneNumber
+                            }
+                        </a>
                 </b>
                 
                 <b>
-                    E-PASTS: <a 
-                        href=
+                    E-PASTS:
+                    <br></br>
+                        <a 
+                            href=
+                                {
+                                    'mailto:' + contactPageData[0].contacts.eMail
+                                } 
+                            rel='noopener noreferrer'
+                        >
                             {
-                                'mailto:' + contactPageData[0].contacts.eMail
-                            } 
-                        rel='noopener noreferrer'
-                    >
-                        {
-                            contactPageData[0].contacts.eMail
-                        }
-                    </a>
+                                contactPageData[0].contacts.eMail
+                            }
+                        </a>
                 </b>
             </address>
 

@@ -1742,7 +1742,7 @@ const productData = [
                 {
                     "img": require("../../assets/fireworks/battery/png/TB145.png"),
                     "webp": require("../../assets/fireworks/battery/webp/TB145.webp"),
-                    "video": "Starlight Bouquet"
+                    "video": "https://www.youtube-nocookie.com/embed/-BgHE8eqowc?si=WxhAJu6uBEoKxQPr"
                 }
             ],
             "info": [
@@ -1838,7 +1838,7 @@ const productData = [
                 {
                     "img": require("../../assets/fireworks/battery/png/TB95.png"),
                     "webp": require("../../assets/fireworks/battery/webp/TB95.webp"),
-                    "video": "https://www.youtube-nocookie.com/embed/_K8hkAsHgVs&t"
+                    "video": "https://www.youtube-nocookie.com/embed/_K8hkAsHgVs?si=AW3MW5A00TG1Bznz"
                 }
             ],
             "info": [
@@ -1886,7 +1886,7 @@ const productData = [
                 {
                     "img": require("../../assets/fireworks/battery/png/TB175.png"),
                     "webp": require("../../assets/fireworks/battery/webp/TB175.webp"),
-                    "video": "https://www.youtube-nocookie.com/embed/DmcZtieTCkc&t"
+                    "video": "https://www.youtube-nocookie.com/embed/DmcZtieTCkc?si=rdu8sYiMqVM_uwws"
                 }
             ],
             "info": [

@@ -102,7 +102,7 @@ const ProductPage = () => {
                         <thead>
                             <tr>
                                 <th>
-                                    PRODULTA ĪPAŠĪBA
+                                    PRODUKTA ĪPAŠĪBA
                                 </th>
                                 <th>
                                     RAKSTUROJUMS

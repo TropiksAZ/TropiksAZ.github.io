@@ -16,6 +16,10 @@ html {
         background-color: $night-rider;
 }
 
+.align-center {
+    text-align: center;
+}
+
 //** Make main content to start after fixed nav bar rather than behind it */
 .main-landing-page-title, .main-page-title {
     align-self: center;
