@@ -139,7 +139,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "250.00"
+                    "value": "260.00"
                 }
             ]
         },
@@ -523,7 +523,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "120.00"
+                    "value": "130.00"
                 }
             ]
         },
@@ -1675,7 +1675,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "50.00"
+                    "value": "55.00"
                 }
             ]
         },
@@ -1771,7 +1771,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "30.00"
+                    "value": "35.00"
                 }
             ]
         },
