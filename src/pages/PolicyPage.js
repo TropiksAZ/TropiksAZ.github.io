@@ -1,6 +1,6 @@
 //** useEffectHooks */
-    import useTitle from "../functions/useTitle";
-    import useToTop from '../functions/useToTop';
+    import useTitle from "../functions/useTitle.js";
+    import useToTop from '../functions/useToTop.js';
 
 //** Image to represent each PDF file */
     import pdfIMG from '../assets/documents/pdf-file.png';

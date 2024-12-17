@@ -1,53 +1,5 @@
 const productData = [
         {
-            "name": "Giant Maniax",
-            "id": "TB418",
-            "meta": [
-                {
-                    "display": "yes",
-                    "new": "yes",
-                    "sold": "no"
-                }
-            ],
-            "manufacturer": "Tropic",
-            "media": [
-                {
-                    "img": require("../../assets/fireworks/battery/png/TB418.png"),
-                    "webp": require("../../assets/fireworks/battery/webp/TB418.webp"),
-                    "video": "https://www.youtube-nocookie.com/embed/CswuMPSpxlw?si=bcPSiJHDlEG9CsRQ"
-                }
-            ],
-            "info": [
-                {
-                    "name": "Kategorija",
-                    "value": "baterija",
-                },
-                {
-                    "name": "Šāviņu skaits",
-                    "value": "200"
-                },
-                {
-                    "name": "Ilgums (s)",
-                    "value": "102"
-                },
-                {
-                    "name": "Kalibrs (mm)",
-                    "value": "25"
-                },
-                {
-                    "name": "Izmērs (mm)",
-                    "value": "770x390x250"
-                }
-            ],
-            "price": [
-                {
-                    "currency": "EUR",
-                    "symbol": "€",
-                    "value": "350.00"
-                }
-            ]
-        },
-        {
             "name": "Connected Cakes 311",
             "id": "TB311",
             "meta": [
@@ -524,54 +476,6 @@ const productData = [
                     "currency": "EUR",
                     "symbol": "€",
                     "value": "120.00"
-                }
-            ]
-        },
-        {
-            "name": "Estrella",
-            "id": "TB417",
-            "meta": [
-                {
-                    "display": "yes",
-                    "new": "yes",
-                    "sold": "no"
-                }
-            ],
-            "manufacturer": "Tropic",
-            "media": [
-                {
-                    "img": require("../../assets/fireworks/battery/png/TB417.png"),
-                    "webp": require("../../assets/fireworks/battery/webp/TB417.webp"),
-                    "video": "https://www.youtube-nocookie.com/embed/IVQ4Zr9-BnE?si=BwD6wL_iMhdkV6qj"
-                }
-            ],
-            "info": [
-                {
-                    "name": "Kategorija",
-                    "value": "baterija",
-                },
-                {
-                    "name": "Šāviņu skaits",
-                    "value": "100"
-                },
-                {
-                    "name": "Ilgums (s)",
-                    "value": "90"
-                },
-                {
-                    "name": "Kalibrs (mm)",
-                    "value": "25/30"
-                },
-                {
-                    "name": "Izmērs (mm)",
-                    "value": "360x250x370"
-                }
-            ],
-            "price": [
-                {
-                    "currency": "EUR",
-                    "symbol": "€",
-                    "value": "180.00"
                 }
             ]
         },
@@ -1536,102 +1440,6 @@ const productData = [
             ]
         },
         {
-            "name": "Red Fox",
-            "id": "TB1",
-            "meta": [
-                {
-                    "display": "yes",
-                    "new": "yes",
-                    "sold": "no"
-                }
-            ],
-            "manufacturer": "Tropic",
-            "media": [
-                {
-                    "img": require("../../assets/fireworks/battery/png/TB1.png"),
-                    "webp": require("../../assets/fireworks/battery/webp/TB1.webp"),
-                    "video": "https://www.youtube-nocookie.com/embed/a5B8LG-NjFM?si=WnqfYx93IMKSKUpj"
-                }
-            ],
-            "info": [
-                {
-                    "name": "Kategorija",
-                    "value": "baterija",
-                },
-                {
-                    "name": "Šāviņu skaits",
-                    "value": "80"
-                },
-                {
-                    "name": "Ilgums (s)",
-                    "value": "37"
-                },
-                {
-                    "name": "Kalibrs (mm)",
-                    "value": "20"
-                },
-                {
-                    "name": "Izmērs (mm)",
-                    "value": "150x240x190"
-                }
-            ],
-            "price": [
-                {
-                    "currency": "EUR",
-                    "symbol": "€",
-                    "value": "55.00"
-                }
-            ]
-        },
-        {
-            "name": "Fighter Air Forces 42",
-            "id": "TB56",
-            "meta": [
-                {
-                    "display": "yes",
-                    "new": "yes",
-                    "sold": "no"
-                }
-            ],
-            "manufacturer": "Tropic",
-            "media": [
-                {
-                    "img": require("../../assets/fireworks/battery/png/TB56.png"),
-                    "webp": require("../../assets/fireworks/battery/webp/TB56.webp"),
-                    "video": "https://www.youtube-nocookie.com/embed/sFU_dKb_g1k?si=XyNC5nrnVqfTvYcB"
-                }
-            ],
-            "info": [
-                {
-                    "name": "Kategorija",
-                    "value": "baterija",
-                },
-                {
-                    "name": "Šāviņu skaits",
-                    "value": "42"
-                },
-                {
-                    "name": "Ilgums (s)",
-                    "value": "42"
-                },
-                {
-                    "name": "Kalibrs (mm)",
-                    "value": "25"
-                },
-                {
-                    "name": "Izmērs (mm)",
-                    "value": "170x210x180"
-                }
-            ],
-            "price": [
-                {
-                    "currency": "EUR",
-                    "symbol": "€",
-                    "value": "55.00"
-                }
-            ]
-        },
-        {
             "name": "Cassiopeia",
             "id": "TB11",
             "meta": [
@@ -1964,54 +1772,6 @@ const productData = [
                     "currency": "EUR",
                     "symbol": "€",
                     "value": "35.00"
-                }
-            ]
-        },
-        {
-            "name": "Little Star",
-            "id": "TB36",
-            "meta": [
-                {
-                    "display": "yes",
-                    "new": "yes",
-                    "sold": "no"
-                }
-            ],
-            "manufacturer": "Tropic",
-            "media": [
-                {
-                    "img": require("../../assets/fireworks/battery/png/TB36.png"),
-                    "webp": require("../../assets/fireworks/battery/webp/TB36.webp"),
-                    "video": "https://www.youtube-nocookie.com/embed/VISJXCXs9H0?si=QN2UWQvU86sZFjdz"
-                }
-            ],
-            "info": [
-                {
-                    "name": "Kategorija",
-                    "value": "baterija",
-                },
-                {
-                    "name": "Šāviņu skaits",
-                    "value": "25"
-                },
-                {
-                    "name": "Ilgums (s)",
-                    "value": "32"
-                },
-                {
-                    "name": "Kalibrs (mm)",
-                    "value": "25"
-                },
-                {
-                    "name": "Izmērs (mm)",
-                    "value": "173x147x150"
-                }
-            ],
-            "price": [
-                {
-                    "currency": "EUR",
-                    "symbol": "€",
-                    "value": "30.00"
                 }
             ]
         },
@@ -2544,54 +2304,6 @@ const productData = [
             ]
         },
         {
-            "name": "ZigZag",
-            "id": "TB152",
-            "meta": [
-                {
-                    "display": "yes",
-                    "new": "yes",
-                    "sold": "no"
-                }
-            ],
-            "manufacturer": "Tropic",
-            "media": [
-                {
-                    "img": require("../../assets/fireworks/battery/png/TB152.png"),
-                    "webp": require("../../assets/fireworks/battery/webp/TB152.webp"),
-                    "video": "https://www.youtube-nocookie.com/embed/kSeyk-O6Nyk?si=GelWNdRtNIzE8ImV"
-                }
-            ],
-            "info": [
-                {
-                    "name": "Kategorija",
-                    "value": "baterija",
-                },
-                {
-                    "name": "Šāviņu skaits",
-                    "value": "20"
-                },
-                {
-                    "name": "Ilgums (s)",
-                    "value": "26"
-                },
-                {
-                    "name": "Kalibrs (mm)",
-                    "value": "20"
-                },
-                {
-                    "name": "Izmērs (mm)",
-                    "value": "130x120x100"
-                }
-            ],
-            "price": [
-                {
-                    "currency": "EUR",
-                    "symbol": "€",
-                    "value": "15.00"
-                }
-            ]
-        },
-        {
             "name": "Piroman",
             "id": "TB148",
             "meta": [
@@ -2832,105 +2544,8 @@ const productData = [
             ]
         },
         {
-            "name": "Magma",
-            "id": "TB154",
-            "meta": [
-                {
-                    "display": "yes",
-                    "new": "no",
-                    "sold": "no"
-                }
-            ],
-            "manufacturer": "Tropic",
-            "media": [
-                {
-                    "img": require("../../assets/fireworks/battery/png/TB154.png"),
-                    "webp": require("../../assets/fireworks/battery/webp/TB154.webp"),
-                    "video": "https://www.youtube-nocookie.com/embed/H9N_fmZWPrA?si=JytpI_fWYw4uYvNY"
-                }
-            ],
-            "info": [
-                {
-                    "name": "Kategorija",
-                    "value": "baterija",
-                },
-                {
-                    "name": "Šāviņu skaits",
-                    "value": "16"
-                },
-                {
-                    "name": "Ilgums (s)",
-                    "value": "18"
-                },
-                {
-                    "name": "Kalibrs (mm)",
-                    "value": "20"
-                },
-                {
-                    "name": "Izmērs (mm)",
-                    "value": "95/95/95"
-                }
-            ],
-            "price": [
-                {
-                    "currency": "EUR",
-                    "symbol": "€",
-                    "value": "8.00"
-                }
-            ]
-        },
-        {
-            "name": "Silver Volcano",
-            "id": "TF16",
-            "meta": [
-                {
-                    "display": "yes",
-                    "new": "no",
-                    "sold": "no"
-                }
-            ],
-            "manufacturer": "Tropic",
-            "media": [
-                {
-                    "img": require("../../assets/fireworks/fountain/png/TF16.png"),
-                    "webp": require("../../assets/fireworks/fountain/webp/TF16.webp"),
-                    "video": "https://www.youtube-nocookie.com/embed/XvIWMU2cVK8?si=EhQs477a679YXtZ9"
-                }
-            ],
-            "info": [
-                {
-                    "name": "Kategorija",
-                    "value": "uguns strūklaka",
-                },
-                {
-                    "name": "Šāviņu skaits",
-                    "value": "1"
-                },
-                {
-                    "name": "Ilgums (s)",
-                    "value": "80"
-                },
-                {
-                    "name": "Kalibrs (mm)",
-                    "value": "20/110"
-                },
-                {
-                    "name": "Izmērs (mm)",
-                    "value": "330/110"
-                }
-            ],
-            "price": [
-                {
-                    "currency": "EUR",
-                    "symbol": "€",
-                    "value": "18.00"
-                }
-            ]
-        },
-        {
             "name": "Silver Sparks Volcano",
             "id": "TF10",
-            "category": "uguns strūklaka",
             "meta": [
                 {
                     "display": "no",
@@ -2979,7 +2594,6 @@ const productData = [
         {
             "name": "Silver Fountain",
             "id": "TF9",
-            "category": "uguns strūklaka",
             "meta": [
                 {
                     "display": "no",
@@ -3028,7 +2642,6 @@ const productData = [
         {
             "name": "Golden Fountain",
             "id": "TF4",
-            "category": "uguns strūklaka",
             "meta": [
                 {
                     "display": "no",
@@ -3077,7 +2690,6 @@ const productData = [
         {
             "name": "Sparky",
             "id": "TF15",
-            "category": "uguns strūklaka",
             "meta": [
                 {
                     "display": "no",
@@ -3126,7 +2738,6 @@ const productData = [
         {
             "name": "Panda",
             "id": "0819",
-            "category": "uguns strūklaka",
             "meta": [
                 {
                     "display": "no",
@@ -3258,54 +2869,6 @@ const productData = [
                 {
                     "name": "Izmērs (mm)",
                     "value": "890/37"
-                }
-            ],
-            "price": [
-                {
-                    "currency": "EUR",
-                    "symbol": "€",
-                    "value": "6.00"
-                }
-            ]
-        },
-        {
-            "name": "One by One",
-            "id": "TRC9",
-            "meta": [
-                {
-                    "display": "yes",
-                    "new": "no",
-                    "sold": "no"
-                }
-            ],
-            "manufacturer": "Tropic",
-            "media": [
-                {
-                    "img": require("../../assets/fireworks/candle/png/TRC9.png"),
-                    "webp": require("../../assets/fireworks/candle/webp/TRC9.webp"),
-                    "video": "https://www.youtube-nocookie.com/embed/-UmOXrhoeJA?si=05KN2fiO7OnxQu8A"
-                }
-            ],
-            "info": [
-                {
-                    "name": "Kategorija",
-                    "value": "romiešu svece",
-                },
-                {
-                    "name": "Šāviņu skaits",
-                    "value": "8"
-                },
-                {
-                    "name": "Ilgums (s)",
-                    "value": "30"
-                },
-                {
-                    "name": "Kalibrs (mm)",
-                    "value": "22"
-                },
-                {
-                    "name": "Izmērs (mm)",
-                    "value": "780x28"
                 }
             ],
             "price": [
@@ -3553,54 +3116,6 @@ const productData = [
                     "currency": "EUR",
                     "symbol": "€",
                     "value": "30.00"
-                }
-            ]
-        },
-        {
-            "name": "Wave",
-            "id": "TB182",
-            "meta": [
-                {
-                    "display": "yes",
-                    "new": "yes",
-                    "sold": "no"
-                }
-            ],
-            "manufacturer": "Tropic",
-            "media": [
-                {
-                    "img": require("../../assets/fireworks/battery/png/TB182.png"),
-                    "webp": require("../../assets/fireworks/battery/webp/TB182.webp"),
-                    "video": "https://www.youtube-nocookie.com/embed/WQj0rPiLr6o?si=D2gJ2ocoJib-qU-G"
-                }
-            ],
-            "info": [
-                {
-                    "name": "Kategorija",
-                    "value": "baterija",
-                },
-                {
-                    "name": "Šāviņu skaits",
-                    "value": "46"
-                },
-                {
-                    "name": "Ilgums (s)",
-                    "value": "42"
-                },
-                {
-                    "name": "Kalibrs (mm)",
-                    "value": "15/20"
-                },
-                {
-                    "name": "Izmērs (mm)",
-                    "value": "165x120x120"
-                }
-            ],
-            "price": [
-                {
-                    "currency": "EUR",
-                    "symbol": "€",
-                    "value": "25.00"
                 }
             ]
         },
@@ -3894,35 +3409,4 @@ const productData = [
         }
 ];
 
-// Update the list.
-const updates = [ 'TR05', 'TA50', 'TA51', 'TRC6', 'TRC9', 'TF16', '0819', 'TB1', 'TB36', 'TB52', 'TB56', 'TB62', 'TB65', 'TB78', 'TB79', 'TB80', 'TB85', 'TB86', 'TB95', 'TB96', 'TB97', 'TB150', 'TB152', 'TB154', 'TB180', 'TB181', 'TB182', 'TB191', 'TB300', 'TB307', 'TB311', 'TB307', 'TB311', 'TB400', 'TB407', 'TB409', 'TB417', 'TB418', 'TW45' ];
-
-function updateProductDisplay(productData, updates) {
-    // Extract IDs from productData for quick lookup
-    const productIds = new Set(productData.map(product => product.id));
-
-    // Find IDs in updates that are not present in productData
-    const missingIds = updates.filter(id => !productIds.has(id));
-    if (missingIds.length > 0) {
-        console.log("The following IDs are not present in productData:", missingIds);
-    }
-
-    // Update productData
-    const updatedProducts = productData.map(product => {
-        const shouldDisplay = updates.includes(product.id);
-        return {
-            ...product,
-            meta: product.meta.map(meta => ({
-                ...meta,
-                display: shouldDisplay ? "yes" : "no"
-            }))
-        };
-    });
-
-    console.log("Product data updated successfully!");
-    return updatedProducts;
-}
-
-const newProductData = updateProductDisplay(productData, updates);
-
-export default newProductData;
+export default productData;

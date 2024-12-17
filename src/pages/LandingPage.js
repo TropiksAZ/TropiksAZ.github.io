@@ -22,7 +22,6 @@
 //** Page to be used as the '/' or root, or index route */
 
 const LandingPage = () => {
-
     //** FUNCTION HEAD */
 
     //** dispatch(action) is needed to run a reducer (action) and update the state of the redux slice */
@@ -42,8 +41,7 @@ const LandingPage = () => {
                 const categoryArray = productData.map(product => product.info[0].value).filter(onlyUnique);
             //* Set the categoryList to the newly created array and preserve it in state */
                 dispatch(setCategoryList(categoryArray));
-
-        }, [productData]);
+        }, [dispatch]);
 
     //** Determine the list of products to be displayed */
         useEffect(() => {
@@ -56,22 +54,22 @@ const LandingPage = () => {
                         return product.info.some(el => el.name === "Kategorija" && el.value === selectedCategory);
                 })
 
-            //* Make sure that the product list is displayed in ascending or descending order - based on <select>) */
-                if(selectedPrice === "ascending") {
-                    products.sort((a, b) => parseFloat(a.price[0].value) - parseFloat(b.price[0].value));
-                } else if (selectedPrice === "descending") {
-                    products.sort((a, b) => parseFloat(a.price[0].value) + parseFloat(b.price[0].value));
-                }
-
             //* Make sure that the product list only contains products that are to be displayed */
                 products = products.filter(product => {
                     return product.meta[0].display === 'yes';
                 })
 
+            //* Make sure that the product list is displayed in ascending or descending order - based on <select>) */
+            if (selectedPrice === "ascending") {
+                products.sort((a, b) => Number(a.price[0].value) - Number(b.price[0].value));
+            } else if (selectedPrice === "descending") {
+                products.sort((a, b) => Number(b.price[0].value) - Number(a.price[0].value));
+            }
+
             //** Save the filtered product list in state */
                 dispatch(setProductList(products))
 
-        }, [selectedCategory, selectedPrice]);
+        }, [dispatch, selectedCategory, selectedPrice]);
 
     //** Function for updating the list of filters to be used for product filtering, by using <select> */
         const updateFilters = (event) => {

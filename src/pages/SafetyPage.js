@@ -1,9 +1,9 @@
 //** Import data to be used in this page */
-    import safetyPageData from "../data/pages/safetyPageData";
+    import safetyPageData from "../data/pages/safetyPageData.js";
 
 //** useEffectHooks */
-    import useTitle from "../functions/useTitle";
-    import useToTop from '../functions/useToTop'
+    import useTitle from "../functions/useTitle.js";
+    import useToTop from '../functions/useToTop.js'
 
 //** Page to be used as the '/safety/' route */
 

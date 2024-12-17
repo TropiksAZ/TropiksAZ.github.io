@@ -1,8 +1,8 @@
 import { useLocation } from "react-router-dom";
 
 //** useEffectHooks */
-    import useTitle from "../functions/useTitle";
-    import useToTop from '../functions/useToTop'
+    import useTitle from "../functions/useTitle.js";
+    import useToTop from '../functions/useToTop.js'
 
 import productData from '../data/fireworks/productData.js';
 
