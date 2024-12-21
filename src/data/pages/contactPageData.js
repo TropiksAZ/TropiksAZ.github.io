@@ -37,6 +37,40 @@ const contactPageData = [
                 'time': 'SLĒGTS'
             }
         ],
+        'holidayworkingHours': [
+            {
+                'day': '24.12.',
+                'time': '11:00 - 18:00'
+            },
+            {
+                'day': '25.12.',
+                'time': '12:00 - 19:00'
+            },
+            {
+                'day': '26.12.',
+                'time': '11:00 - 19:00'
+            },
+            {
+                'day': '27.12.',
+                'time': '10:00 - 20:00'
+            },
+            {
+                'day': '28.12.',
+                'time': '10:00 - 20:00'
+            },
+            {
+                'day': '29.12.',
+                'time': '10:00 - 20:00'
+            },
+            {
+                'day': '30.12.',
+                'time': '10:00 - 20:00'
+            },
+            {
+                'day': '31.12.',
+                'time': '10:00 - 24:00'
+            }
+        ],
         'googleMap': 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d544.2747736445085!2d24.1502457!3d56.9299686!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eed1e12f47184b%3A0x8d137453882057db!2sSIA%20%22Tropiks%20AZ%22!5e0!3m2!1slv!2slv!4v1687373520186!5m2!1slv!2slv',
         'intro': 'SIA "Tropiks AZ" pirotehnikas tirgū darbojas kopš 2000.gada.',
         'mission': 'Mēs esam lepni piedāvāt augstas kvalitātes pirotehniku un nodrošināt mūsu klientiem profesionālu atbalstu, lai jūs varētu piedzīvot drošu un aizraujošu salūtu.',

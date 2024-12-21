@@ -109,6 +109,54 @@ const ContactPage = () => {
                     <table>
                         <thead>
                             <tr>
+                                <h3>Svētku dienās</h3>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Diena
+                                </th>
+                                <th>
+                                    Laiks
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {
+                                contactPageData[0].holidayworkingHours.map(e => {
+                                    return (
+                                        <tr
+                                            key=
+                                                {
+                                                    e.day
+                                                }
+                                        >
+                                            <td>
+                                                {
+                                                    e.day
+                                                }
+                                            </td>
+                                            <td>
+                                                {
+                                                    e.time
+                                                }
+                                            </td>
+                                        </tr>
+                                    )
+                                })
+                            }
+                        </tbody>
+                    </table>                    
+                </section>
+
+                <section
+                    className='contact-table-container standart-margin'
+                >
+                    <table>
+                        <thead>
+                            <tr>
+                                <h3>Ikdienā</h3>
+                            </tr>
+                            <tr>
                                 <th>
                                     Diena
                                 </th>
