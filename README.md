@@ -21,3 +21,11 @@ You may also see any lint errors in the console.
 ### npm run deploy
 
 "gh-pages -d build"
+
+### Commit
+
+git commit -m “Release version 01.00.00”
+
+git tag -a v01.00.00 -m "Release version 01.00.00"
+
+git push origin/main --tags

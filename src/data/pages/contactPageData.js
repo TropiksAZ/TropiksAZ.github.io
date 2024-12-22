@@ -39,6 +39,10 @@ const contactPageData = [
         ],
         'holidayworkingHours': [
             {
+                'day': '23.12.',
+                'time': '11:00 - 19:00'
+            },
+            {
                 'day': '24.12.',
                 'time': '11:00 - 18:00'
             },
