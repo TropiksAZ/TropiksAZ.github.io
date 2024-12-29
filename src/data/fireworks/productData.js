@@ -3895,7 +3895,7 @@ const productData = [
 ];
 
 // Update the list.
-const updates = [ 'TR05', 'TA50', 'TA51', 'TRC6', 'TRC9', 'TF16', '0819', 'TB1', 'TB36', 'TB52', 'TB56', 'TB62', 'TB65', 'TB78', 'TB79', 'TB80', 'TB85', 'TB86', 'TB95', 'TB96', 'TB97', 'TB150', 'TB152', 'TB154', 'TB175', 'TB180', 'TB181', 'TB182', 'TB191', 'TB300', 'TB307', 'TB311', 'TB307', 'TB311', 'TB400', 'TB407', 'TB409', 'TB417', 'TB418', 'TW35', 'TW45' ];
+const updates = [ 'TR05', 'TA50', 'TA51', 'TRC6', 'TRC9', 'TF16', '0819', 'TB1', 'TB36', 'TB52', 'TB62', 'TB65', 'TB78', 'TB79', 'TB80', 'TB85', 'TB86', 'TB95', 'TB96', 'TB97', 'TB150', 'TB152', 'TB154', 'TB175', 'TB180', 'TB181', 'TB182', 'TB191', 'TB300', 'TB307', 'TB311', 'TB307', 'TB311', 'TB400', 'TB407', 'TB409', 'TB418', 'TW35', 'TW45' ];
 
 function updateProductDisplay(productData, updates) {
     // Extract IDs from productData for quick lookup
