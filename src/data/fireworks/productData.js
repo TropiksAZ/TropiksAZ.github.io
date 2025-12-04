@@ -4110,7 +4110,7 @@ const productData = [
                 {
                     "img": require("../../assets/fireworks/other/png/TC9.png"),
                     "webp": require("../../assets/fireworks/other/webp/TC9.webp"),
-                    "video": ""
+                    "video": "-"
                 }
             ],
             "info": [
