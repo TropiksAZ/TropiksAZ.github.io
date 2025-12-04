@@ -115,7 +115,7 @@ const productData = [
                 {
                     "img": require("../../assets/fireworks/battery/png/TB409.png"),
                     "webp": require("../../assets/fireworks/battery/webp/TB409.webp"),
-                    "video": "https://www.youtube-nocookie.com/embed/k_nDnyEw3xA?si=PLZCzenuMpj02W4Q"
+                    "video": "https://www.youtube-nocookie.com/embed/SIqve32OIjs?si=CIjqe_NxY4oaCIOa"
                 }
             ],
             "info": [

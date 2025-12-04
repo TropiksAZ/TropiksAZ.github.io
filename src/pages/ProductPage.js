@@ -24,7 +24,11 @@ const ProductPage = () => {
             const singleProductData = productData.filter(product => product.id === productId);
 
     //* Dinamicaly change the title of the current page - since react does not have pages */
-        useTitle(productData[0].id + ' - ' + productData[0].name);
+        useTitle(
+            singleProductData.length > 0
+                ? `${singleProductData[0].id} - ${singleProductData[0].name}`
+                : "Produkta informācija"
+        );
 
     //** FUNCTION RETURN */
     return (

@@ -1,19 +1,15 @@
 import { useEffect } from 'react';
 
-//** Code to insert in every page to change the document's <meta> title tag */
-
+// Custom hook to set the document title on any page
 const useTitle = (titleString) => {
-    useEffect(() => {
-        //** Get current title */
-            const prevTitle = document.title;
-        
-        //** Change title to input */
-            document.title = titleString;
-        
-        return () => {
-            document.title = prevTitle;
-        }
-    })
-  }
+  useEffect(() => {
+    const prevTitle = document.title;    // save current title
+    document.title = titleString;        // set new title
+
+    return () => {
+      document.title = prevTitle;        // restore when unmounted
+    };
+  }, [titleString]); // <-- important dependency
+};
 
 export default useTitle;
