@@ -24,6 +24,8 @@ You may also see any lint errors in the console.
 
 ### Commit
 
+git add . / git add --al
+
 git commit -m “Release version 01.00.00”
 
 git tag -a v01.00.00 -m "Release version 01.00.00"

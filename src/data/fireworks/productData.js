@@ -1,3 +1,8 @@
+
+// "display": "yes/no", should it be displayed
+// "new": "yes/no", should it be treated as a new product
+//"sold": "yes/no"
+
 const productData = [
         {
             "name": "Giant Maniax",
@@ -187,7 +192,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "260.00"
+                    "value": "250.00"
                 }
             ]
         },
@@ -283,7 +288,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "210.00"
+                    "value": "250.00"
                 }
             ]
         },
@@ -571,7 +576,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "180.00"
+                    "value": "220.00"
                 }
             ]
         },
@@ -667,7 +672,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "120.00"
+                    "value": "110.00"
                 }
             ]
         },
@@ -715,7 +720,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "115.00"
+                    "value": "120.00"
                 }
             ]
         },
@@ -763,7 +768,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "110.00"
+                    "value": "115.00"
                 }
             ]
         },
@@ -859,7 +864,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "100.00"
+                    "value": "105.00"
                 }
             ]
         },
@@ -907,7 +912,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "130.00"
+                    "value": "120.00"
                 }
             ]
         },
@@ -1156,7 +1161,7 @@ const productData = [
             "id": "TB65",
             "meta": [
                 {
-                    "display": "yes",
+                    "display": "no",
                     "new": "no",
                     "sold": "no"
                 }
@@ -1636,7 +1641,7 @@ const productData = [
             "id": "TB11",
             "meta": [
                 {
-                    "display": "yes",
+                    "display": "no",
                     "new": "no",
                     "sold": "no"
                 }
@@ -1867,7 +1872,103 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "55.00"
+                    "value": "50.00"
+                }
+            ]
+        },
+        {
+            "name": "Exotic",
+            "id": "TB53",
+            "meta": [
+                {
+                    "display": "yes",
+                    "new": "yes",
+                    "sold": "no"
+                }
+            ],
+            "manufacturer": "Tropic",
+            "media": [
+                {
+                    "img": require("../../assets/fireworks/battery/png/TB52.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB52.webp"),
+                    "video": "https://www.youtube-nocookie.com/embed/ZsxOuUs6Yqg?si=QuIR4ZNtzgYW2bLX"
+                }
+            ],
+            "info": [
+                {
+                    "name": "Kategorija",
+                    "value": "baterija",
+                },
+                {
+                    "name": "Šāviņu skaits",
+                    "value": "36"
+                },
+                {
+                    "name": "Ilgums (s)",
+                    "value": "46"
+                },
+                {
+                    "name": "Kalibrs (mm)",
+                    "value": "30"
+                },
+                {
+                    "name": "Izmērs (mm)",
+                    "value": "220X215X215"
+                }
+            ],
+            "price": [
+                {
+                    "currency": "EUR",
+                    "symbol": "€",
+                    "value": "60.00"
+                }
+            ]
+        },
+        {
+            "name": "Exotic",
+            "id": "TB37",
+            "meta": [
+                {
+                    "display": "yes",
+                    "new": "yes",
+                    "sold": "no"
+                }
+            ],
+            "manufacturer": "Tropic",
+            "media": [
+                {
+                    "img": require("../../assets/fireworks/battery/png/TB37.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB37.webp"),
+                    "video": "https://www.youtube-nocookie.com/embed/nWDWXqsqdAs?si=eG6yLE7jV1swIuZX"
+                }
+            ],
+            "info": [
+                {
+                    "name": "Kategorija",
+                    "value": "baterija",
+                },
+                {
+                    "name": "Šāviņu skaits",
+                    "value": "25"
+                },
+                {
+                    "name": "Ilgums (s)",
+                    "value": "39"
+                },
+                {
+                    "name": "Kalibrs (mm)",
+                    "value": "25"
+                },
+                {
+                    "name": "Izmērs (mm)",
+                    "value": "170x150x150"
+                }
+            ],
+            "price": [
+                {
+                    "currency": "EUR",
+                    "symbol": "€",
+                    "value": "30.00"
                 }
             ]
         },
@@ -1924,7 +2025,7 @@ const productData = [
             "id": "TB145",
             "meta": [
                 {
-                    "display": "yes",
+                    "display": "no",
                     "new": "no",
                     "sold": "no"
                 }
@@ -2395,7 +2496,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "20.00"
+                    "value": "25.00"
                 }
             ]
         },
@@ -2404,7 +2505,7 @@ const productData = [
             "id": "TW45",
             "meta": [
                 {
-                    "display": "yes",
+                    "display": "no",
                     "new": "no",
                     "sold": "no"
                 }
@@ -2596,7 +2697,7 @@ const productData = [
             "id": "TB148",
             "meta": [
                 {
-                    "display": "yes",
+                    "display": "no",
                     "new": "no",
                     "sold": "no"
                 }
@@ -2644,7 +2745,7 @@ const productData = [
             "id": "TB147",
             "meta": [
                 {
-                    "display": "yes",
+                    "display": "no",
                     "new": "no",
                     "sold": "no"
                 }
@@ -2740,7 +2841,7 @@ const productData = [
             "id": "TB150",
             "meta": [
                 {
-                    "display": "yes",
+                    "display": "no",
                     "new": "no",
                     "sold": "no"
                 }
@@ -2836,7 +2937,7 @@ const productData = [
             "id": "TB154",
             "meta": [
                 {
-                    "display": "yes",
+                    "display": "no",
                     "new": "no",
                     "sold": "no"
                 }
@@ -2923,10 +3024,64 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "18.00"
+                    "value": "20.00"
                 }
             ]
         },
+        {
+            "name": "Gold Volcano",
+            "id": "TF17",
+            "meta": [
+                {
+                    "display": "yes",
+                    "new": "no",
+                    "sold": "no"
+                }
+            ],
+            "manufacturer": "Tropic",
+            "media": [
+                {
+                    "img": require("../../assets/fireworks/fountain/png/TF17.png"),
+                    "webp": require("../../assets/fireworks/fountain/webp/TF17.webp"),
+                    "video": "https://www.youtube-nocookie.com/embed/xfOxs4yFwqo?si=faomVv6Jb83bsq5p"
+                }
+            ],
+            "info": [
+                {
+                    "name": "Kategorija",
+                    "value": "uguns strūklaka",
+                },
+                {
+                    "name": "Šāviņu skaits",
+                    "value": "1"
+                },
+                {
+                    "name": "Ilgums (s)",
+                    "value": "80"
+                },
+                {
+                    "name": "Kalibrs (mm)",
+                    "value": "20/110"
+                },
+                {
+                    "name": "Izmērs (mm)",
+                    "value": "330/110"
+                }
+            ],
+            "price": [
+                {
+                    "currency": "EUR",
+                    "symbol": "€",
+                    "value": "20.00"
+                }
+            ]
+        },
+
+
+
+
+
+
         {
             "name": "Silver Sparks Volcano",
             "id": "TF10",
@@ -3129,7 +3284,7 @@ const productData = [
             "category": "uguns strūklaka",
             "meta": [
                 {
-                    "display": "no",
+                    "display": "yes",
                     "new": "no",
                     "sold": "no"
                 }
@@ -3168,7 +3323,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "3.00"
+                    "value": "6.00"
                 }
             ]
         },
@@ -3225,7 +3380,7 @@ const productData = [
             "id": "TRC8",
             "meta": [
                 {
-                    "display": "yes",
+                    "display": "no",
                     "new": "no",
                     "sold": "no"
                 }
@@ -3273,7 +3428,7 @@ const productData = [
             "id": "TRC9",
             "meta": [
                 {
-                    "display": "yes",
+                    "display": "no",
                     "new": "no",
                     "sold": "no"
                 }
@@ -3417,7 +3572,7 @@ const productData = [
             "id": "TR08",
             "meta": [
                 {
-                    "display": "yes",
+                    "display": "no",
                     "new": "no",
                     "sold": "no"
                 }
@@ -3465,7 +3620,7 @@ const productData = [
             "id": "TA51",
             "meta": [
                 {
-                    "display": "no",
+                    "display": "yes",
                     "new": "no",
                     "sold": "no"
                 }
@@ -3504,7 +3659,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "35.00"
+                    "value": "40.00"
                 }
             ]
         },
@@ -3513,7 +3668,7 @@ const productData = [
             "id": "TR05",
             "meta": [
                 {
-                    "display": "yes",
+                    "display": "no",
                     "new": "no",
                     "sold": "no"
                 }
@@ -3605,11 +3760,59 @@ const productData = [
             ]
         },
         {
+            "name": "Magical",
+            "id": "TB158",
+            "meta": [
+                {
+                    "display": "yes",
+                    "new": "yes",
+                    "sold": "no"
+                }
+            ],
+            "manufacturer": "Tropic",
+            "media": [
+                {
+                    "img": require("../../assets/fireworks/battery/png/TB158.png"),
+                    "webp": require("../../assets/fireworks/battery/webp/TB158.webp"),
+                    "video": "https://www.youtube-nocookie.com/embed/HCMYxCJVMYk?si=UgNGGPFKExgFs2Nr"
+                }
+            ],
+            "info": [
+                {
+                    "name": "Kategorija",
+                    "value": "baterija",
+                },
+                {
+                    "name": "Šāviņu skaits",
+                    "value": "20"
+                },
+                {
+                    "name": "Ilgums (s)",
+                    "value": "26"
+                },
+                {
+                    "name": "Kalibrs (mm)",
+                    "value": "25"
+                },
+                {
+                    "name": "Izmērs (mm)",
+                    "value": "120/150/150"
+                }
+            ],
+            "price": [
+                {
+                    "currency": "EUR",
+                    "symbol": "€",
+                    "value": "25.00"
+                }
+            ]
+        },
+        {
             "name": "Starlight",
             "id": "TR06",
             "meta": [
                 {
-                    "display": "yes",
+                    "display": "no",
                     "new": "no",
                     "sold": "no"
                 }
@@ -3696,7 +3899,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "25.00"
+                    "value": "28.00"
                 }
             ]
         },
@@ -3744,7 +3947,7 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "15.00"
+                    "value": "20.00"
                 }
             ]
         },
@@ -3849,7 +4052,7 @@ const productData = [
             "id": "TR9901",
             "meta": [
                 {
-                    "display": "no",
+                    "display": "yes",
                     "new": "no",
                     "sold": "no"
                 }
@@ -3888,14 +4091,111 @@ const productData = [
                 {
                     "currency": "EUR",
                     "symbol": "€",
-                    "value": "5.00"
+                    "value": "8.00"
+                }
+            ]
+        },
+        {
+            "name": "Happy Spinner",
+            "id": "TC9",
+            "meta": [
+                {
+                    "display": "yes",
+                    "new": "no",
+                    "sold": "no"
+                }
+            ],
+            "manufacturer": "Tropic",
+            "media": [
+                {
+                    "img": require("../../assets/fireworks/other/png/TC9.png"),
+                    "webp": require("../../assets/fireworks/other/webp/TC9.webp"),
+                    "video": ""
+                }
+            ],
+            "info": [
+                {
+                    "name": "Kategorija",
+                    "value": "cits",
+                },
+                {
+                    "name": "Šāviņu skaits",
+                    "value": "12"
+                },
+                {
+                    "name": "Ilgums (s)",
+                    "value": "3"
+                },
+                {
+                    "name": "Kalibrs (mm)",
+                    "value": "22"
+                },
+                {
+                    "name": "Izmērs (mm)",
+                    "value": "245x100x55"
+                }
+            ],
+            "price": [
+                {
+                    "currency": "EUR",
+                    "symbol": "€",
+                    "value": "8.00"
                 }
             ]
         }
 ];
 
 // Update the list.
-const updates = [ 'TR05', 'TA50', 'TA51', 'TRC6', 'TRC9', 'TF16', '0819', 'TB1', 'TB36', 'TB52', 'TB62', 'TB65', 'TB78', 'TB79', 'TB80', 'TB85', 'TB86', 'TB95', 'TB96', 'TB97', 'TB150', 'TB152', 'TB154', 'TB175', 'TB180', 'TB181', 'TB182', 'TB191', 'TB300', 'TB307', 'TB311', 'TB307', 'TB311', 'TB400', 'TB407', 'TB409', 'TW35', 'TW45' ];
+const updates = [ 
+'TF16',
+'TF17',
+'0819',
+'TA51',
+'TA50',
+'TA53',
+'TC9',
+'TR9901',
+'TB104',
+'TW35',
+'TW36',
+'TB180',
+'TB181',
+'TB53',
+'TB86',
+'TB1',
+'TB56',
+'TB96',
+'TB52',
+'TB36',
+'TB37',
+'TB175',
+'TB95',
+'TB182',
+'TB158',
+'TW42',
+'TB152',
+'TB149',
+'TB146',
+'TB311',
+'TB418',
+'TB400',
+'TB409',
+'TB405',
+'TB407',
+'TB417',
+'TB307',
+'TB191',
+'TB88',
+'TB99',
+'TB94',
+'TB62',
+'TB85',
+'TB80',
+'TB300',
+'TB97',
+'TB79',
+'TB78'
+ ];
 
 function updateProductDisplay(productData, updates) {
     // Extract IDs from productData for quick lookup
