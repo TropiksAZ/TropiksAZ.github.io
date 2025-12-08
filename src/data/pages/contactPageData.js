@@ -10,31 +10,31 @@ const contactPageData = [
         'workingHours': [
             {
                 'day': 'Pirmdiena',
-                'time': '11:00 - 18:30'
+                'time': '10:00 - 20:00'
             },
             {
                 'day': 'Otrdiena',
-                'time': '11:00 - 18:30'
+                'time': '10:00 - 20:00'
             },
             {
                 'day': 'Trešdiena',
-                'time': '11:00 - 18:30'
+                'time': '10:00 - 20:00'
             },
             {
                 'day': 'Ceturtdiena',
-                'time': '11:00 - 18:30'
+                'time': '10:00 - 20:00'
             },
             {
                 'day': 'Piektdiena',
-                'time': '11:00 - 18:30'
+                'time': '10:00 - 20:00'
             },
             {
                 'day': 'Sestdiena',
-                'time': 'SLĒGTS'
+                'time': '10:00 - 20:00'
             },
             {
                 'day': 'Svētdiena',
-                'time': 'SLĒGTS'
+                'time': '10:00 - 20:00'
             }
         ],
         'holidayworkingHours': [
