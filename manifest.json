@@ -1,15 +1,15 @@
 {
-    "short_name": "tropiks.lv",
-    "name": "tropiks.lv",
-    "icons": [
-      {
-        "src": "favicon.png",
-        "sizes": "265x256",
-        "type": "image/png"
-      }
-    ],
-    "start_url": "./index.html",
-    "display": "standalone",
-    "theme_color": "#000000",
-    "background_color": "#ffffff"
-  }
+  "short_name": "Tropiks AZ",
+  "name": "Tropiks AZ — pirotehnika",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1b1b1b",
+  "background_color": "#1b1b1b"
+}

@@ -3,19 +3,363 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
    <url>
-      <loc>https://tropiks.lv/#</loc>
+      <loc>https://tropiks.lv/</loc>
    </url>
 
    <url>
-      <loc>https://tropiks.lv/#/kontakti</loc>
+      <loc>https://tropiks.lv/kontakti</loc>
    </url>
 
    <url>
-      <loc>https://tropiks.lv/#/drosiba</loc>
+      <loc>https://tropiks.lv/drosiba</loc>
    </url>
 
    <url>
-      <loc>https://tropiks.lv/#/noteikumi</loc>
+      <loc>https://tropiks.lv/noteikumi</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB418</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB311</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB409</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB400</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB407</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB405</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB308</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB206</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB307</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB401</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB88</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB417</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB191</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB85</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB94</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB62</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB80</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB300</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB99</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB93</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB97</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB79</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB78</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB119</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB65</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB194</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB60</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TW35</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB104</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TW36</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB181</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB180</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB1</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB56</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB11</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB96</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB86</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB58</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB52</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB53</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB37</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB102</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB145</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB36</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TW44</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB95</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB175</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB26</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB40</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB41</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB43</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TW42</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TW45</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB7</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB19</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB152</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB148</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB147</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB146</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB150</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB149</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB154</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TF16</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TF17</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TF10</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TF9</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TF4</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TF15</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/0819</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TRC6</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TRC8</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TRC9</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TRC1</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/0345-20</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TR08</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TA51</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TR05</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB182</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TB158</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TR06</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TA50</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TA53</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TA33</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/0445</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TR9901</loc>
+   </url>
+
+   <url>
+      <loc>https://tropiks.lv/produkti/TC9</loc>
    </url>
 
 </urlset>

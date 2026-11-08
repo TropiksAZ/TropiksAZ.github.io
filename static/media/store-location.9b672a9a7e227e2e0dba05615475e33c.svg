@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Kartes attēls">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#252525"/>
+      <stop offset="100%" stop-color="#1b1b1b"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2e2e2e" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect width="800" height="450" fill="url(#grid)"/>
+  <path d="M40 320 C120 280, 200 360, 280 300 S420 220, 520 260 S680 340, 760 280" fill="none" stroke="#3a3a3a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M80 120 C180 140, 240 80, 340 110 S500 180, 620 140 S720 90, 760 120" fill="none" stroke="#333" stroke-width="12" stroke-linecap="round"/>
+  <path d="M200 40 V410" fill="none" stroke="#FD9C01" stroke-opacity="0.25" stroke-width="3"/>
+  <path d="M480 40 V410" fill="none" stroke="#FD9C01" stroke-opacity="0.18" stroke-width="3"/>
+  <path d="M40 200 H760" fill="none" stroke="#FD9C01" stroke-opacity="0.18" stroke-width="3"/>
+  <circle cx="410" cy="230" r="54" fill="#FD9C01" fill-opacity="0.15"/>
+  <circle cx="410" cy="230" r="18" fill="#FD9C01"/>
+  <path d="M410 120 C372 120 342 150 342 188 C342 236 410 300 410 300 C410 300 478 236 478 188 C478 150 448 120 410 120 Z" fill="#FD9C01"/>
+  <circle cx="410" cy="188" r="22" fill="#1b1b1b"/>
+  <text x="410" y="390" text-anchor="middle" fill="#f8f8ff" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="700">Krasta iela 91/93, Rīga</text>
+  <text x="410" y="420" text-anchor="middle" fill="#FD9C01" font-family="Montserrat, Arial, sans-serif" font-size="16">SIA Tropiks AZ</text>
+</svg>
